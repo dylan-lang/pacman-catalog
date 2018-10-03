@@ -1,0 +1,16 @@
+{
+    "uncommon-dylan": {
+        "contact": "carl.gay at gmail",
+        "description": "Utilities of extremely general nature that could potentially be candidates for moving to the common-dylan library at some point.",
+        "license-type": "MIT",
+        "synopsis": "general utilities",
+        "category": "utilities",
+        "keywords": [ ],
+        "versions": {
+            "0.0.1": {
+                "deps": [ ],
+                "source-url": "https://github.com/dylan-lang/uncommon-dylan"
+            }
+        }
+    }
+}
