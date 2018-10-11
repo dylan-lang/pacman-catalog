@@ -1,5 +1,7 @@
 # TODO:
 #  * remove /* from dependencies once more package deps are supported.
+#  * decide on a reasonable package taxonomy (categories)
+#  * use https: instead of git@
 {
     "command-line-parser": {
         "contact": "dylan-lang@googlegroups.com",
@@ -11,12 +13,10 @@
         "versions": {
             "0.0.1": {
                 "deps": [ ],
-                "source-url": "https://github.com/dylan-lang/command-line-parser"
+                "source-url": "git@github.com:dylan-lang/command-line-parser"
             }
         }
-    }
-}
-{
+    },
     "dylan-tool": {
         "contact": "dylan-lang@googlegroups.com",
         "description": "Manage Dylan workspaces and packages",
@@ -27,12 +27,24 @@
         "versions": {
             "0.0.1": {
                 "deps": [ "command-line-parser/*", "pacman/*" ],
-                "source-url": "https://github.com/cgay/dylan-tool"
+                "source-url": "git@github.com:cgay/dylan-tool"
             }
         }
-    }
-}
-{
+    },
+    "json": {
+        "contact": "dylan-lang@googlegroups.com",
+        "description": "parse and write JSON data format",
+        "license-type": "MIT",
+        "synopsis": "parse and write JSON data format",
+        "category": "parsers",
+        "keywords": [ "workspace", "package" ],
+        "versions": {
+            "0.0.1": {
+                "deps": [ "command-line-parser/*", "pacman/*" ],
+                "source-url": "git@github.com:dylan-lang/json"
+            }
+        }
+    },
     "pacman": {
         "contact": "dylan-lang@googlegroups.com",
         "description": "Dylan package manager -- search for, download, and install available Dylan software packages.",
@@ -43,12 +55,10 @@
         "versions": {
             "0.0.1": {
                 "deps": [ "json/*", "regular-expressions/*", "uncommon-dylan/*" ],
-                "source-url": "https://github.com/cgay/pacman"
+                "source-url": "git@github.com:cgay/pacman"
             }
         }
-    }
-}
-{
+    },
     "regular-expressions": {
         "contact": "dylan-lang@googlegroups.com",
         "description": "Regular expressions",
@@ -59,12 +69,10 @@
         "versions": {
             "0.0.1": {
                 "deps": [ ],
-                "source-url": "https://github.com/dylan-lang/regular-expressions"
+                "source-url": "git@github.com:dylan-lang/regular-expressions"
             }
         }
-    }
-}
-{
+    },
     "uncommon-dylan": {
         "contact": "dylan-lang@googlegroups.com",
         "description": "uncommon-utils library provides utilities of extremely general nature that could potentially be candidates for moving to the common-dylan library at some point. Also provides the uncommon-dylan package, which shortens some of the names in the Dylan package, for example <integer> -> <int>.",
@@ -75,7 +83,7 @@
         "versions": {
             "0.0.1": {
                 "deps": [ ],
-                "source-url": "https://github.com/dylan-lang/uncommon-dylan"
+                "source-url": "git@github.com:dylan-lang/uncommon-dylan"
             }
         }
     }
