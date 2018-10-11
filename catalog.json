@@ -1,7 +1,73 @@
+# TODO:
+#  * remove /* from dependencies once more package deps are supported.
+{
+    "command-line-parser": {
+        "contact": "dylan-lang@googlegroups.com",
+        "description": "command line parser",
+        "license-type": "MIT",
+        "synopsis": "command line parser",
+        "category": "tools",
+        "keywords": [ "cli", "flags" ],
+        "versions": {
+            "0.0.1": {
+                "deps": [ ],
+                "source-url": "https://github.com/dylan-lang/command-line-parser"
+            }
+        }
+    }
+}
+{
+    "dylan-tool": {
+        "contact": "dylan-lang@googlegroups.com",
+        "description": "Manage Dylan workspaces and packages",
+        "license-type": "MIT",
+        "synopsis": "Manage Dylan workspaces and packages",
+        "category": "language-tools",
+        "keywords": [ "workspace", "package" ],
+        "versions": {
+            "0.0.1": {
+                "deps": [ "command-line-parser/*", "pacman/*" ],
+                "source-url": "https://github.com/cgay/dylan-tool"
+            }
+        }
+    }
+}
+{
+    "pacman": {
+        "contact": "dylan-lang@googlegroups.com",
+        "description": "Dylan package manager -- search for, download, and install available Dylan software packages.",
+        "license-type": "MIT",
+        "synopsis": "Dylan package manager",
+        "category": "language-tools",
+        "keywords": [ "package" ],
+        "versions": {
+            "0.0.1": {
+                "deps": [ "json/*", "regular-expressions/*", "uncommon-dylan/*" ],
+                "source-url": "https://github.com/cgay/pacman"
+            }
+        }
+    }
+}
+{
+    "regular-expressions": {
+        "contact": "dylan-lang@googlegroups.com",
+        "description": "Regular expressions",
+        "license-type": "MIT",
+        "synopsis": "Regular expressions",
+        "category": "parsers",
+        "keywords": [ "regex", "regexp" ],
+        "versions": {
+            "0.0.1": {
+                "deps": [ ],
+                "source-url": "https://github.com/dylan-lang/regular-expressions"
+            }
+        }
+    }
+}
 {
     "uncommon-dylan": {
-        "contact": "carl.gay at gmail",
-        "description": "Utilities of extremely general nature that could potentially be candidates for moving to the common-dylan library at some point.",
+        "contact": "dylan-lang@googlegroups.com",
+        "description": "uncommon-utils library provides utilities of extremely general nature that could potentially be candidates for moving to the common-dylan library at some point. Also provides the uncommon-dylan package, which shortens some of the names in the Dylan package, for example <integer> -> <int>.",
         "license-type": "MIT",
         "synopsis": "general utilities",
         "category": "utilities",
