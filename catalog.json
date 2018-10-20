@@ -40,7 +40,7 @@
         "keywords": [ "workspace", "package" ],
         "versions": {
             "0.0.1": {
-                "deps": [ "command-line-parser/*", "pacman/*" ],
+                "deps": [ ],
                 "source-url": "git@github.com:dylan-lang/json"
             }
         }
