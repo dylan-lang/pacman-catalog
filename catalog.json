@@ -1,4 +1,7 @@
 # TODO:
+#  * docs: note that libraries hosted in Open Dylan need not be listed as
+#    deps, though depending on that will result in errors if those packages
+#    get moved out of OD.
 #  * remove /* from dependencies once more package deps are supported.
 #  * decide on a reasonable package taxonomy (categories)
 #  * use https: instead of git@
@@ -11,9 +14,9 @@
         "category": "tools",
         "keywords": [ "cli", "flags" ],
         "versions": {
-            "0.0.1": {
+            "head": {
                 "deps": [ ],
-                "source-url": "git@github.com:dylan-lang/command-line-parser"
+                "location": "git@github.com:dylan-lang/command-line-parser"
             }
         }
     },
@@ -25,9 +28,13 @@
         "category": "language-tools",
         "keywords": [ "workspace", "package" ],
         "versions": {
-            "0.0.1": {
-                "deps": [ "command-line-parser/*", "pacman/*" ],
-                "source-url": "git@github.com:cgay/dylan-tool"
+            "head": {
+                "deps": [ "command-line-parser head",
+                          "json head",
+                          "pacman head",
+                          "regular-expressions head",
+                          "uncommon-dylan head" ],
+                "location": "git@github.com:cgay/dylan-tool"
             }
         }
     },
@@ -39,9 +46,9 @@
         "category": "parsers",
         "keywords": [ "workspace", "package" ],
         "versions": {
-            "0.0.1": {
+            "head": {
                 "deps": [ ],
-                "source-url": "git@github.com:dylan-lang/json"
+                "location": "git@github.com:dylan-lang/json"
             }
         }
     },
@@ -53,9 +60,27 @@
         "category": "language-tools",
         "keywords": [ "package" ],
         "versions": {
-            "0.0.1": {
-                "deps": [ "json/*", "regular-expressions/*", "uncommon-dylan/*" ],
-                "source-url": "git@github.com:cgay/pacman"
+            "head": {
+                "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
+                "location": "git@github.com:cgay/pacman"
+            }
+            "0.0.2": {
+                "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
+                "location": "git@github.com:cgay/pacman"
+            }
+        }
+    },
+    "pacman-catalog": {
+        "contact": "dylan-lang@googlegroups.com",
+        "description": "Dylan package manager catalog -- descriptors for all known Dylan packages.",
+        "license-type": "MIT",
+        "synopsis": "Dylan package manager catalog",
+        "category": "language-tools",
+        "keywords": [ "package" ],
+        "versions": {
+            "head": {
+                "deps": [ ],
+                "location": "git@github.com:cgay/pacman-catalog"
             }
         }
     },
@@ -67,9 +92,9 @@
         "category": "parsers",
         "keywords": [ "regex", "regexp" ],
         "versions": {
-            "0.0.1": {
+            "head": {
                 "deps": [ ],
-                "source-url": "git@github.com:dylan-lang/regular-expressions"
+                "location": "git@github.com:dylan-lang/regular-expressions"
             }
         }
     },
@@ -81,9 +106,9 @@
         "category": "utilities",
         "keywords": [ ],
         "versions": {
-            "0.0.1": {
+            "head": {
                 "deps": [ ],
-                "source-url": "git@github.com:dylan-lang/uncommon-dylan"
+                "location": "git@github.com:dylan-lang/uncommon-dylan"
             }
         }
     }
