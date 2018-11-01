@@ -47,7 +47,7 @@
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
         "synopsis": "A DSL for parsing and assembling binary data",
-        "category": "ccc",
+        "category": "parsers",
         "keywords": [ ],
         "versions": {
             "head": {
@@ -206,9 +206,9 @@
     },
     "dynamic-binding": {
         "contact": "dylan-lang@googlegroups.com",
-        "license-type": "lll",
-        "synopsis": "sss",
-        "category": "ccc",
+        "license-type": "unknown",
+        "synopsis": "Dynamically scoped bindings",
+        "category": "utilities",
         "keywords": [ ],
         "versions": {
             "head": {
@@ -247,8 +247,8 @@
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
         "synopsis": "Generate dot and gml files from a graph",
-        "category": "ccc",
-        "keywords": [ ],
+        "category": "graphics",
+        "keywords": [ "presentation" ],
         "versions": {
             "head": {
                 "deps": [ ],
@@ -376,7 +376,7 @@
     },
     "mime": {
         "contact": "dylan-lang@googlegroups.com",
-        "license-type": "lll",
+        "license-type": "MIT",
         "synopsis": "MIME type map",
         "category": "network",
         "keywords": [ ],
@@ -419,7 +419,7 @@
     },
     "opendylan.org": {
         "contact": "dylan-lang@googlegroups.com",
-        "license-type": "lll",
+        "license-type": "MIT",
         "synopsis": "Host opendylan.org with the Dylan web server",
         "category": "apps",
         "keywords": [ ],
@@ -440,11 +440,11 @@
         "versions": {
             "head": {
                 "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
-                "location": "git@github.com:cgay/pacman"
+                "location": "git@github.com:dylan-lang/pacman"
             },
             "0.0.2": {
                 "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
-                "location": "git@github.com:cgay/pacman"
+                "location": "git@github.com:dylan-lang/pacman"
             }
         }
     },
@@ -582,9 +582,9 @@
     },
     "template-engine": {
         "contact": "dylan-lang@googlegroups.com",
-        "license-type": "lll",
-        "synopsis": "sss",
-        "category": "ccc",
+        "license-type": "unknown",
+        "synopsis": "Template engine",
+        "category": "utilities",
         "keywords": [ ],
         "versions": {
             "head": {
@@ -596,8 +596,8 @@
     "testworks": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "template engine",
-        "category": "utilities",
+        "synopsis": "Unit testing framework",
+        "category": "testing",
         "keywords": [ ],
         "versions": {
             "head": {
