@@ -13,7 +13,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/anaphora"
+                "location": "https://github.com/dylan-lang/anaphora"
             }
         }
     },
@@ -26,7 +26,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/atom-language-dylan"
+                "location": "https://github.com/dylan-lang/atom-language-dylan"
             }
         }
     },
@@ -39,7 +39,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/base64"
+                "location": "https://github.com/dylan-lang/base64"
             }
         }
     },
@@ -52,7 +52,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/binary-data"
+                "location": "https://github.com/dylan-lang/binary-data"
             }
         }
     },
@@ -65,7 +65,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/collection-extensions"
+                "location": "https://github.com/dylan-lang/collection-extensions"
             }
         }
     },
@@ -78,7 +78,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/command-interface"
+                "location": "https://github.com/dylan-lang/command-interface"
             }
         }
     },
@@ -91,7 +91,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/command-line-parser"
+                "location": "https://github.com/dylan-lang/command-line-parser"
             }
         }
     },
@@ -104,7 +104,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/doctower"
+                "location": "https://github.com/dylan-lang/doctower"
             }
         }
     },
@@ -117,7 +117,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/dylan-mode"
+                "location": "https://github.com/dylan-lang/dylan-mode"
             }
         }
     },
@@ -130,7 +130,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/dylan-programming-book"
+                "location": "https://github.com/dylan-lang/dylan-programming-book"
             }
         }
     },
@@ -143,7 +143,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/dylan-reference-manual"
+                "location": "https://github.com/dylan-lang/dylan-reference-manual"
             }
         }
     },
@@ -156,7 +156,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/dylan-syntax-support"
+                "location": "https://github.com/dylan-lang/dylan-syntax-support"
             }
         }
     },
@@ -174,7 +174,7 @@
                           "pacman head",
                           "regular-expressions head",
                           "uncommon-dylan head" ],
-                "location": "git@github.com:cgay/dylan-tool"
+                "location": "https://github.com/cgay/dylan-tool"
             }
         }
     },
@@ -187,7 +187,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/dylan-vim"
+                "location": "https://github.com/dylan-lang/dylan-vim"
             }
         }
     },
@@ -200,7 +200,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/dylan.tmbundle"
+                "location": "https://github.com/dylan-lang/dylan.tmbundle"
             }
         }
     },
@@ -213,7 +213,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/dynamic-binding"
+                "location": "https://github.com/dylan-lang/dynamic-binding"
             }
         }
     },
@@ -226,7 +226,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/examples"
+                "location": "https://github.com/dylan-lang/examples"
             }
         }
     },
@@ -239,7 +239,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/graph-viewer"
+                "location": "https://github.com/dylan-lang/graph-viewer"
             }
         }
     },
@@ -252,7 +252,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/graphviz-renderer"
+                "location": "https://github.com/dylan-lang/graphviz-renderer"
             }
         }
     },
@@ -265,7 +265,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/gui-testworks"
+                "location": "https://github.com/dylan-lang/gui-testworks"
             }
         }
     },
@@ -278,7 +278,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/hash-algorithms"
+                "location": "https://github.com/dylan-lang/hash-algorithms"
             }
         }
     },
@@ -291,7 +291,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/homebrew-dylan"
+                "location": "https://github.com/dylan-lang/homebrew-dylan"
             }
         }
     },
@@ -304,7 +304,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/http"
+                "location": "https://github.com/dylan-lang/http"
             }
         }
     },
@@ -318,7 +318,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/json"
+                "location": "https://github.com/dylan-lang/json"
             }
         }
     },
@@ -331,7 +331,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/lisp-to-dylan"
+                "location": "https://github.com/dylan-lang/lisp-to-dylan"
             }
         }
     },
@@ -344,7 +344,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/logging"
+                "location": "https://github.com/dylan-lang/logging"
             }
         }
     },
@@ -357,7 +357,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/melange"
+                "location": "https://github.com/dylan-lang/melange"
             }
         }
     },
@@ -370,7 +370,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/meta"
+                "location": "https://github.com/dylan-lang/meta"
             }
         }
     },
@@ -383,7 +383,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/mime"
+                "location": "https://github.com/dylan-lang/mime"
             }
         }
     },
@@ -396,7 +396,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/monday"
+                "location": "https://github.com/dylan-lang/monday"
             }
         }
     },
@@ -409,11 +409,11 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/opendylan"
+                "location": "https://github.com/dylan-lang/opendylan"
             },
             "2014.1.0": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/opendylan"
+                "location": "https://github.com/dylan-lang/opendylan"
             }
         }
     },
@@ -426,7 +426,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/opendylan.org"
+                "location": "https://github.com/dylan-lang/opendylan.org"
             }
         }
     },
@@ -440,11 +440,11 @@
         "versions": {
             "head": {
                 "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
-                "location": "git@github.com:dylan-lang/pacman"
+                "location": "https://github.com/dylan-lang/pacman"
             },
             "0.0.2": {
                 "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
-                "location": "git@github.com:dylan-lang/pacman"
+                "location": "https://github.com/dylan-lang/pacman"
             }
         }
     },
@@ -458,7 +458,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:cgay/pacman-catalog"
+                "location": "https://github.com/cgay/pacman-catalog"
             }
         }
     },
@@ -471,7 +471,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/peg-parser"
+                "location": "https://github.com/dylan-lang/peg-parser"
             }
         }
     },
@@ -484,7 +484,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/priority-queue"
+                "location": "https://github.com/dylan-lang/priority-queue"
             }
         }
     },
@@ -498,7 +498,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/regular-expressions"
+                "location": "https://github.com/dylan-lang/regular-expressions"
             }
         }
     },
@@ -511,7 +511,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/sequence-stream"
+                "location": "https://github.com/dylan-lang/sequence-stream"
             }
         }
     },
@@ -524,7 +524,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/shootout"
+                "location": "https://github.com/dylan-lang/shootout"
             }
         }
     },
@@ -537,7 +537,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/skip-list"
+                "location": "https://github.com/dylan-lang/skip-list"
             }
         }
     },
@@ -550,7 +550,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/slot-visitor"
+                "location": "https://github.com/dylan-lang/slot-visitor"
             }
         }
     },
@@ -563,7 +563,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/sphinx-extensions"
+                "location": "https://github.com/dylan-lang/sphinx-extensions"
             }
         }
     },
@@ -576,7 +576,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/strings"
+                "location": "https://github.com/dylan-lang/strings"
             }
         }
     },
@@ -589,7 +589,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/template-engine"
+                "location": "https://github.com/dylan-lang/template-engine"
             }
         }
     },
@@ -602,7 +602,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/testworks"
+                "location": "https://github.com/dylan-lang/testworks"
             }
         }
     },
@@ -616,7 +616,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/uncommon-dylan"
+                "location": "https://github.com/dylan-lang/uncommon-dylan"
             }
         }
     },
@@ -629,7 +629,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/uri"
+                "location": "https://github.com/dylan-lang/uri"
             }
         }
     },
@@ -642,7 +642,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/vscode-dylan"
+                "location": "https://github.com/dylan-lang/vscode-dylan"
             }
         }
     },
@@ -655,7 +655,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/web-framework"
+                "location": "https://github.com/dylan-lang/web-framework"
             }
         }
     },
@@ -668,7 +668,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/web-ide-backend"
+                "location": "https://github.com/dylan-lang/web-ide-backend"
             }
         }
     },
@@ -681,7 +681,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/website"
+                "location": "https://github.com/dylan-lang/website"
             }
         }
     },
@@ -694,7 +694,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/wiki"
+                "location": "https://github.com/dylan-lang/wiki"
             }
         }
     },
@@ -707,7 +707,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/wrapper-streams"
+                "location": "https://github.com/dylan-lang/wrapper-streams"
             }
         }
     },
@@ -720,7 +720,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/xml-parser"
+                "location": "https://github.com/dylan-lang/xml-parser"
             }
         }
     },
@@ -733,7 +733,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/xml-rpc"
+                "location": "https://github.com/dylan-lang/xml-rpc"
             }
         }
     },
@@ -746,7 +746,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/xmpp"
+                "location": "https://github.com/dylan-lang/xmpp"
             }
         }
     },
@@ -759,7 +759,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/xmpp-bot"
+                "location": "https://github.com/dylan-lang/xmpp-bot"
             }
         }
     },
@@ -772,7 +772,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/zlib"
+                "location": "https://github.com/dylan-lang/zlib"
             }
         }
     }
