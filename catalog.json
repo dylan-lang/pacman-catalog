@@ -408,7 +408,14 @@
         "keywords": [ ],
         "versions": {
             "head": {
-                "deps": [ ],
+                "deps": [ "sphinx-extensions head",
+                          "collection-extensions head",
+                          "command-line-parser head",
+                          "hash-algorithms head",
+                          "logging head",
+                          "regular-expressions head",
+                          "strings head",
+                          "testworks head" ],
                 "location": "https://github.com/dylan-lang/opendylan"
             },
             "2014.1.0": {
