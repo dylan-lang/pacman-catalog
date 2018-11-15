@@ -95,6 +95,19 @@
             }
         }
     },
+    "concurrency": {
+        "contact": "dylan-lang@googlegroups.com",
+        "license-type": "MIT",
+        "synopsis": "Concurrency utilities",
+        "category": "utilities",
+        "keywords": [ ],
+        "versions": {
+            "head": {
+                "deps": [ ],
+                "location": "git@github.com:dylan-foundry/concurrency"
+            }
+        }
+    },
     "doctower": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "None",
@@ -303,7 +316,17 @@
         "keywords": [ ],
         "versions": {
             "head": {
-                "deps": [ ],
+                "deps": [ "base64 head",
+                          "concurrency head",
+                          "logging head",
+                          "meta head",
+                          "mime head",
+                          "serialization head",
+                          "sphinx-extensions head",
+                          "uncommon-dylan head",
+                          "uri head",
+                          "xml-parser head"
+                        ],
                 "location": "git@github.com:dylan-lang/http"
             }
         }
@@ -519,6 +542,19 @@
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/sequence-stream"
+            }
+        }
+    },
+    "serialization": {
+        "contact": "dylan-lang@googlegroups.com",
+        "license-type": "MIT",
+        "synopsis": "Serialize Dylan objects to various formats",
+        "category": "utilities",
+        "keywords": [ "json", "marshal" ],
+        "versions": {
+            "head": {
+                "deps": [ ],
+                "location": "git@github.com:dylan-foundry/serialization"
             }
         }
     },
