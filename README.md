@@ -8,8 +8,8 @@ packages and their dependencies.
 If you would like to add a new library to the catalog just send a pull
 request.
 
-**Note:** this package management system is new for Dylan, and many
-packages are still bundled into the
+**Note:** this package management system is new for Dylan (as of Nov
+2018), and many packages are still bundled into the
 [opendylan](https://github.com/dylan-lang/opendylan) repository.  If
 your library depends on one of those bundled packages it's important
 to note that although it doesn't need to be (and can't be) listed as
