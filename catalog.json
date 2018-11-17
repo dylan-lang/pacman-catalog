@@ -33,7 +33,7 @@
     "base64": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "Public Domain",
-        "synopsis": "Base64 implementation for Dylan",
+        "synopsis": "Base64 encoding",
         "category": "encoding",
         "keywords": [ ],
         "versions": {
