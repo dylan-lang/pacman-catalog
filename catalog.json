@@ -189,7 +189,7 @@
                           "pacman head",
                           "regular-expressions head",
                           "uncommon-dylan head" ],
-                "location": "git@github.com:cgay/dylan-tool"
+                "location": "git@github.com:dylan-lang/dylan-tool"
             }
         }
     },
@@ -490,7 +490,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:cgay/pacman-catalog"
+                "location": "git@github.com:dylan-lang/pacman-catalog"
             }
         }
     },
