@@ -1,10 +1,10 @@
 # TODO:
 #  * decide on a reasonable package taxonomy (categories)
 #    https://github.com/rust-lang/crates.io/blob/master/src/boot/categories.toml
-#  * use https: instead of git@
 #  * platform info?
 #  * default settings (location, deps) at the package level so they don't have
 #    to be repeated for each version if they haven't changed.
+#  * JSON isn't a very nice config format. toml? coil?
 {
     "anaphora": {
         "contact": "dylan-lang@googlegroups.com",
@@ -107,6 +107,19 @@
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-foundry/concurrency"
+            }
+        }
+    },
+    "deft": {
+        "contact": "dylan-lang@googlegroups.com",
+        "license-type": "MIT",
+        "synopsis": "Dylan Environment For Tools",
+        "category": "development tools",
+        "keywords": [ ],
+        "versions": {
+            "head": {
+                "deps": [ ],
+                "location": "git@github.com:dylan-foundry/deft"
             }
         }
     },
@@ -679,6 +692,19 @@
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/uri"
+            }
+        }
+    },
+    "uuid": {
+        "contact": "dylan-lang@googlegroups.com",
+        "license-type": "None",
+        "synopsis": "Universally unique identifiers",
+        "category": "utilities",
+        "keywords": [ ],
+        "versions": {
+            "head": {
+                "deps": [ ],
+                "location": "git@github.com:dylan-foundry/uuid"
             }
         }
     },
