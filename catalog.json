@@ -773,6 +773,23 @@
             }
         }
     },
+    "workspaces": {
+        "contact": "dylan-lang@googlegroups.com",
+        "license-type": "MIT",
+        "synopsis": "Manipulate Dylan development workspaces",
+        "category": "development tools",
+        "keywords": [ ],
+        "versions": {
+            "head": {
+                "deps": [
+                    "json head",
+                    "regular-expressions head",
+                    "uncommon-dylan head"
+                ],
+                "location": "git@github.com:dylan-lang/workspaces"
+            }
+        }
+    },
     "wrapper-streams": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
