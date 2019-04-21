@@ -202,7 +202,7 @@
                           "pacman head",
                           "regular-expressions head",
                           "uncommon-dylan head" ],
-                "location": "git@github.com:dylan-lang/dylan-tool"
+                "location": "git@github.com:cgay/dylan-tool"
             }
         }
     },
@@ -485,11 +485,11 @@
         "versions": {
             "head": {
                 "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
-                "location": "git@github.com:dylan-lang/pacman"
+                "location": "git@github.com:cgay/pacman"
             },
             "0.0.2": {
                 "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
-                "location": "git@github.com:dylan-lang/pacman"
+                "location": "git@github.com:cgay/pacman"
             }
         }
     },
@@ -503,7 +503,7 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/pacman-catalog"
+                "location": "git@github.com:cgay/pacman-catalog"
             }
         }
     },
@@ -786,7 +786,7 @@
                     "regular-expressions head",
                     "uncommon-dylan head"
                 ],
-                "location": "git@github.com:dylan-lang/workspaces"
+                "location": "git@github.com:cgay/workspaces"
             }
         }
     },
