@@ -1,5 +1,8 @@
 {
     "name": "dylan-tool",
-    "deps": [ "pacman head" ],  # for the tests
+    "deps": [            # for the tests
+        "pacman head",
+        "testworks head",
+    ],
     "location": "git@github.com:cgay/pacman-catalog"
 }
