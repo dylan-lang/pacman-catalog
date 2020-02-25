@@ -5,6 +5,7 @@
 #  * default settings (location, deps) at the package level so they don't have
 #    to be repeated for each version if they haven't changed.
 #  * JSON isn't a very nice config format. toml? coil?
+#  * Packages bundled with OD (network, system, et al) should be included here?
 {
     "anaphora": {
         "contact": "dylan-lang@googlegroups.com",
@@ -622,6 +623,19 @@
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/sphinx-extensions"
+            }
+        }
+    },
+    "ssl-network": {
+        "contact": "dylan-lang@googlegroups.com",
+        "license-type": "",
+        "synopsis": "SSL sockets",
+        "category": "network",
+        "keywords": [ ],
+        "versions": {
+            "head": {
+                "deps": [ ],
+                "location": "git@github.com:dylan-lang/strings"
             }
         }
     },
