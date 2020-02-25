@@ -626,19 +626,6 @@
             }
         }
     },
-    "ssl-network": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "",
-        "synopsis": "SSL sockets",
-        "category": "network",
-        "keywords": [ ],
-        "versions": {
-            "head": {
-                "deps": [ ],
-                "location": "git@github.com:dylan-lang/strings"
-            }
-        }
-    },
     "strings": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "",
