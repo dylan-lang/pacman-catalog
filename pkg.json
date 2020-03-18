@@ -1,5 +1,5 @@
 {
-    "name": "dylan-tool",
+    "name": "pacman-catalog",
     "deps": [            # for the tests
         "pacman head",
         "testworks head",
