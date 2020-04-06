@@ -485,11 +485,17 @@
         "keywords": [ "package" ],
         "versions": {
             "head": {
-                "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
+                "deps": [
+                    "json head",
+                    "regular-expressions head",
+                    "uncommon-dylan head" ],
                 "location": "git@github.com:cgay/pacman"
             },
             "0.0.2": {
-                "deps": [ "json head", "regular-expressions head", "uncommon-dylan head" ],
+                "deps": [
+                    "json head",
+                    "regular-expressions head",
+                    "uncommon-dylan head" ],
                 "location": "git@github.com:cgay/pacman"
             }
         }
@@ -675,11 +681,11 @@
         "versions": {
             "head": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/uncommon-dylan"
+                "location": "git@github.com:cgay/uncommon-dylan"
             },
             "0.1.0": {
                 "deps": [ ],
-                "location": "git@github.com:dylan-lang/uncommon-dylan"
+                "location": "git@github.com:cgay/uncommon-dylan"
             }
         }
     },
