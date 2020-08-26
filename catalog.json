@@ -246,19 +246,6 @@
             }
         }
     },
-    "examples": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "synopsis": "Examples and ICFP submissions",
-        "category": "examples",
-        "keywords": [ ],
-        "versions": {
-            "head": {
-                "deps": [ ],
-                "location": "git@github.com:dylan-lang/examples"
-            }
-        }
-    },
     "graph-viewer": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
