@@ -658,6 +658,18 @@
             }
         }
     },
+    "time": {
+        "description": "Time, date, and time zone manipulation that aims to be more efficient and complete than Open Dylan's system:date module. As of Dec 2020 this library is usable for time manipulation and naive (fixed offset) time zones but has no calendar functionality and 'aware' time zone functionality is incomplete.",
+        "license-type": "MIT",
+        "synopsis": "Time, date, and time zone manipulation",
+        "category": "utilities",
+        "versions": {
+            "head": {
+                "deps": [ ],
+                "location": "git@github.com:cgay/time",
+            }
+        }
+    },
     "uncommon-dylan": {
         "contact": "dylan-lang@googlegroups.com",
         "description": "uncommon-utils library provides utilities of extremely general nature that could potentially be candidates for moving to the common-dylan library at some point. Also provides the uncommon-dylan package, which shortens some of the names in the Dylan package, for example <integer> -> <int>.",
