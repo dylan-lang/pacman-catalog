@@ -442,6 +442,14 @@
                           "testworks head" ],
                 "location": "git@github.com:dylan-lang/opendylan"
             },
+            "2020.1.0": {
+                "deps": [ ],
+                "location": "git@github.com:dylan-lang/opendylan"
+            },
+            "2019.1.0": {
+                "deps": [ ],
+                "location": "git@github.com:dylan-lang/opendylan"
+            },
             "2014.1.0": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/opendylan"
