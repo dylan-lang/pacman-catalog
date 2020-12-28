@@ -10,10 +10,10 @@
     "anaphora": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "None",
-        "synopsis": "Anaphoric constructs for Dylan",
+        "description": "Anaphoric constructs for Dylan",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/anaphora"
@@ -23,10 +23,10 @@
     "atom-language-dylan": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Dylan language support for the Atom editor",
+        "description": "Dylan language support for the Atom editor",
         "category": "editor support",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/atom-language-dylan"
@@ -36,10 +36,10 @@
     "base64": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "Public Domain",
-        "synopsis": "Base64 encoding",
+        "description": "Base64 encoding",
         "category": "encoding",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/base64"
@@ -47,12 +47,12 @@
         }
     },
     "binary-data": {
+        "description": "A DSL for parsing and assembling binary data",
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "A DSL for parsing and assembling binary data",
         "category": "parsers",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/binary-data"
@@ -62,10 +62,10 @@
     "collection-extensions": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Collection library for Dylan",
+        "description": "Collection library for Dylan",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/collection-extensions"
@@ -75,10 +75,10 @@
     "command-interface": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Interactive command interface system for Dylan",
+        "description": "Interactive command interface system for Dylan",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/command-interface"
@@ -88,10 +88,10 @@
     "command-line-parser": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "opendylan license",
-        "synopsis": "Command line processing for Dylan",
+        "description": "Command line processing for Dylan",
         "category": "utilities",
         "keywords": [ "cli", "flags" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/command-line-parser"
@@ -101,10 +101,10 @@
     "concurrency": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Concurrency utilities",
+        "description": "Concurrency utilities",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-foundry/concurrency"
@@ -114,10 +114,10 @@
     "deft": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Dylan Environment For Tools",
+        "description": "Dylan Environment For Tools",
         "category": "development tools",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-foundry/deft"
@@ -127,10 +127,10 @@
     "doctower": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "None",
-        "synopsis": "Generate documentation from Dylan code comments",
+        "description": "Generate documentation from Dylan code comments",
         "category": "documentation",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/doctower"
@@ -140,10 +140,10 @@
     "dylan-mode": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "GPL",
-        "synopsis": "Emacs mode for indenting and highlighting Dylan code",
+        "description": "Emacs mode for indenting and highlighting Dylan code",
         "category": "editor support",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/dylan-mode"
@@ -153,10 +153,10 @@
     "dylan-programming-book": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Dylan Programming Guide - a book about Dylan",
+        "description": "Dylan Programming Guide - a book about Dylan",
         "category": "documentation",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/dylan-programming-book"
@@ -166,10 +166,10 @@
     "dylan-reference-manual": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "The Dylan Reference Manual (DRM)",
+        "description": "The Dylan Reference Manual (DRM)",
         "category": "documentation",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/dylan-reference-manual"
@@ -179,10 +179,10 @@
     "dylan-syntax-support": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Source files for generating syntax definitions for VSCode, Atom, Sublime Text and Textmate",
+        "description": "Source files for generating syntax definitions for VSCode, Atom, Sublime Text and Textmate",
         "category": "editor support",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/dylan-syntax-support"
@@ -193,10 +193,9 @@
         "contact": "dylan-lang@googlegroups.com",
         "description": "Manage Dylan workspaces and packages",
         "license-type": "MIT",
-        "synopsis": "Manage Dylan workspaces and packages",
         "category": "language-tools",
         "keywords": [ "workspace", "package" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ "command-line-parser head",
                           "json head",
@@ -210,10 +209,10 @@
     "dylan-vim": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "VIM syntax highlighting for Dylan",
+        "description": "VIM syntax highlighting for Dylan",
         "category": "editor support",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/dylan-vim"
@@ -223,10 +222,10 @@
     "dylan.tmbundle": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "TextMate support for Dylan",
+        "description": "TextMate support for Dylan",
         "category": "editor support",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/dylan.tmbundle"
@@ -236,10 +235,10 @@
     "dynamic-binding": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Dynamically scoped bindings",
+        "description": "Dynamically scoped bindings",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/dynamic-binding"
@@ -249,10 +248,10 @@
     "graph-viewer": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "A graph viewer and layouter with an OpenGL interface",
+        "description": "A graph viewer and layouter with an OpenGL interface",
         "category": "graphics",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/graph-viewer"
@@ -262,10 +261,10 @@
     "graphviz-renderer": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Generate dot and gml files from a graph",
+        "description": "Generate dot and gml files from a graph",
         "category": "graphics",
         "keywords": [ "presentation" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/graphviz-renderer"
@@ -275,10 +274,10 @@
     "gui-testworks": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Simple GUI wrapper for Testworks",
+        "description": "Simple GUI wrapper for Testworks",
         "category": "testing",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/gui-testworks"
@@ -288,10 +287,10 @@
     "hash-algorithms": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Cryptographic hash functions",
+        "description": "Cryptographic hash functions",
         "category": "cryptography",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/hash-algorithms"
@@ -301,10 +300,10 @@
     "homebrew-dylan": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Repository for a tap for homebrew for Mac OS X builds",
+        "description": "Repository for a tap for homebrew for Mac OS X builds",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/homebrew-dylan"
@@ -314,10 +313,10 @@
     "http": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "HTTP server and client",
+        "description": "HTTP server and client",
         "category": "network",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ "base64 head",
                           "concurrency head",
@@ -338,10 +337,9 @@
         "contact": "dylan-lang@googlegroups.com",
         "description": "parse and write JSON data format",
         "license-type": "MIT",
-        "synopsis": "parse and write JSON data format",
         "category": "parsers",
         "keywords": [ "workspace", "package" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/json"
@@ -351,10 +349,10 @@
     "lisp-to-dylan": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Convert Common Lisp code to Dylan",
+        "description": "Convert Common Lisp code to Dylan",
         "category": "development tools",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/lisp-to-dylan"
@@ -364,10 +362,10 @@
     "logging": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Logging library",
+        "description": "Logging library",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/logging"
@@ -377,10 +375,10 @@
     "melange": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "C-FFI interface generator for Open Dylan",
+        "description": "C-FFI interface generator for Open Dylan",
         "category": "development tools",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/melange"
@@ -390,10 +388,10 @@
     "meta": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Recursive descent parser DSL for Dylan",
+        "description": "Recursive descent parser DSL for Dylan",
         "category": "development tools",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/meta"
@@ -403,10 +401,10 @@
     "mime": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "MIME type map",
+        "description": "MIME type map",
         "category": "network",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/mime"
@@ -416,10 +414,10 @@
     "monday": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "GPL",
-        "synopsis": "Literate programming tools",
+        "description": "Literate programming tools",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/monday"
@@ -429,10 +427,10 @@
     "opendylan": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "DUAL",
-        "synopsis": "Dylan compiler, IDE, and related libraries",
+        "description": "Dylan compiler, IDE, and related libraries",
         "category": "compilers",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ "sphinx-extensions head",
                           "collection-extensions head",
@@ -453,10 +451,10 @@
     "opendylan.org": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Host opendylan.org with the Dylan web server",
+        "description": "Host opendylan.org with the Dylan web server",
         "category": "apps",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/opendylan.org"
@@ -470,7 +468,7 @@
         "synopsis": "Dylan package manager",
         "category": "development tools",
         "keywords": [ "package" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [
                     "json head",
@@ -494,7 +492,7 @@
         "synopsis": "Dylan package manager catalog",
         "category": "development tools",
         "keywords": [ "package" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:cgay/pacman-catalog"
@@ -504,10 +502,10 @@
     "peg-parser": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "recursive descent parser that handles attributed parsing expression grammars (PEGs)",
+        "description": "recursive descent parser that handles attributed parsing expression grammars (PEGs)",
         "category": "development tools",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/peg-parser"
@@ -517,10 +515,10 @@
     "priority-queue": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "LGPL",
-        "synopsis": "Priority queue data structure",
+        "description": "Priority queue data structure",
         "category": "data structures",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/priority-queue"
@@ -531,10 +529,9 @@
         "contact": "dylan-lang@googlegroups.com",
         "description": "Regular expressions",
         "license-type": "MIT",
-        "synopsis": "Regular expressions",
         "category": "parsers",
         "keywords": [ "regex", "regexp" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/regular-expressions"
@@ -544,10 +541,10 @@
     "sequence-stream": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "A replacement for the normal <sequence-stream> classes",
+        "description": "A replacement for the normal <sequence-stream> classes",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/sequence-stream"
@@ -557,10 +554,10 @@
     "serialization": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Serialize Dylan objects to various formats",
+        "description": "Serialize Dylan objects to various formats",
         "category": "utilities",
         "keywords": [ "json", "marshal" ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-foundry/serialization"
@@ -570,10 +567,10 @@
     "shootout": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Dylan solutions to the great programming language shootout",
+        "description": "Dylan solutions to the great programming language shootout",
         "category": "examples",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/shootout"
@@ -583,10 +580,10 @@
     "skip-list": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Skip list collection library",
+        "description": "Skip list collection library",
         "category": "data structures",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/skip-list"
@@ -596,10 +593,10 @@
     "slot-visitor": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Define a visitor function to recursively visit and alter objects and",
+        "description": "Define a visitor function to recursively visit and alter objects and",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/slot-visitor"
@@ -609,10 +606,10 @@
     "sphinx-extensions": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Extensions to Sphinx for the Open Dylan website and documentation",
+        "description": "Extensions to Sphinx for the Open Dylan website and documentation",
         "category": "documentation",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/sphinx-extensions"
@@ -622,10 +619,10 @@
     "strings": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "",
-        "synopsis": "String manipulation",
+        "description": "String manipulation",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/strings"
@@ -635,10 +632,10 @@
     "template-engine": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Template engine",
+        "description": "Template engine",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/template-engine"
@@ -648,10 +645,10 @@
     "testworks": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Unit testing framework",
+        "description": "Unit testing framework",
         "category": "testing",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/testworks"
@@ -659,11 +656,13 @@
         }
     },
     "time": {
+        "contact": "dylan-lang@googlegroups.com",
         "description": "Time, date, and time zone manipulation that aims to be more efficient and complete than Open Dylan's system:date module. As of Dec 2020 this library is usable for time manipulation and naive (fixed offset) time zones but has no calendar functionality and 'aware' time zone functionality is incomplete.",
+        "keywords": [ ],
         "license-type": "MIT",
         "synopsis": "Time, date, and time zone manipulation",
         "category": "utilities",
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:cgay/time",
@@ -677,7 +676,7 @@
         "synopsis": "general utilities",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:cgay/uncommon-dylan"
@@ -691,10 +690,10 @@
     "uri": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "URI library",
+        "description": "URI library",
         "category": "network",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/uri"
@@ -704,10 +703,10 @@
     "uuid": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "None",
-        "synopsis": "Universally unique identifiers",
+        "description": "Universally unique identifiers",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-foundry/uuid"
@@ -717,10 +716,10 @@
     "vscode-dylan": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Dylan support for Visual Studio Code",
+        "description": "Dylan support for Visual Studio Code",
         "category": "editor support",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/vscode-dylan"
@@ -730,10 +729,10 @@
     "web-framework": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Web app utilities",
+        "description": "Web app utilities",
         "category": "utilities",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/web-framework"
@@ -743,10 +742,10 @@
     "web-ide-backend": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Web backend for the Open Dylan IDE",
+        "description": "Web backend for the Open Dylan IDE",
         "category": "development tools",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/web-ide-backend"
@@ -756,10 +755,10 @@
     "website": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "The opendylan.org web site",
+        "description": "The opendylan.org web site",
         "category": "uncategorized",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/website"
@@ -769,10 +768,10 @@
     "wiki": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "A git-backed wiki web app",
+        "description": "A git-backed wiki web app",
         "category": "web apps",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/wiki"
@@ -782,10 +781,10 @@
     "workspaces": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "Manipulate Dylan development workspaces",
+        "description": "Manipulate Dylan development workspaces",
         "category": "development tools",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [
                     "json head",
@@ -799,10 +798,10 @@
     "wrapper-streams": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Wrapper streams",
+        "description": "Wrapper streams",
         "category": "io",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/wrapper-streams"
@@ -812,10 +811,10 @@
     "xml-parser": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "XML parser",
+        "description": "XML parser",
         "category": "parsers",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/xml-parser"
@@ -825,10 +824,10 @@
     "xml-rpc": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "synopsis": "XML-RPC server and client",
+        "description": "XML-RPC server and client",
         "category": "network",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/xml-rpc"
@@ -838,10 +837,10 @@
     "xmpp": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "XMPP",
+        "description": "XMPP",
         "category": "network",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/xmpp"
@@ -851,10 +850,10 @@
     "xmpp-bot": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "XMPP bot",
+        "description": "XMPP bot",
         "category": "network",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/xmpp-bot"
@@ -864,10 +863,10 @@
     "zlib": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "synopsis": "Simple Dylan zlib wrapper",
+        "description": "Simple Dylan zlib wrapper",
         "category": "compression",
         "keywords": [ ],
-        "versions": {
+        "releases": {
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/zlib"
