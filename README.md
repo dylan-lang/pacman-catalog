@@ -6,7 +6,9 @@ programming language. This data is used by the
 packages and their dependencies.
 
 If you would like to add a new library to the catalog just send a pull
-request.
+request. In order to test your change, set the `DYLAN_CATALOG` shell
+variable to the pathname of your local catalog and the build and run
+the `pacman-catalog-test` library.
 
 **Note:** this package management system is new for Dylan (as of Nov
 2018), and many packages are still bundled into the
