@@ -1,11 +1,3 @@
-# TODO:
-#  * decide on a reasonable package taxonomy (categories)
-#    https://github.com/rust-lang/crates.io/blob/master/src/boot/categories.toml
-#  * platform info?
-#  * default settings (location, deps) at the package level so they don't have
-#    to be repeated for each version if they haven't changed.
-#  * JSON isn't a very nice config format. toml? coil?
-#  * Packages bundled with OD (network, system, et al) should be included here?
 {
     "anaphora": {
         "contact": "dylan-lang@googlegroups.com",
@@ -369,6 +361,24 @@
             "head": {
                 "deps": [ ],
                 "location": "git@github.com:dylan-lang/logging"
+            }
+        }
+    },
+    "lsp-dylan": {
+        "contact": "dylan-lang@googlegroups.com",
+        "license-type": "MIT",
+        "description": "Language Server Protocol",
+        "category": "development tools",
+        "keywords": [ "lsp" ],
+        "releases": {
+            "head": {
+                "deps": [ "command-line-parser head",
+                          "json head",
+                          "pacman head",
+                          "uncommon-dylan head",
+                          "workspaces head"
+                        ],
+                "location": "git@github.com:pedro-w/lsp-dylan"
             }
         }
     },
