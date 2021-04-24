@@ -4,5 +4,5 @@
         "pacman head",
         "testworks head",
     ],
-    "location": "git@github.com:cgay/pacman-catalog"
+    "location": "https://github.com/cgay/pacman-catalog"
 }
