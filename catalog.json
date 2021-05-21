@@ -2,7 +2,7 @@
     "anaphora": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "None",
-        "summary": "Anaphoric constructs for Dylan",
+        "summary": "Anaphoric constructs",
         "category": "utilities",
         "keywords": [ ],
         "releases": {
@@ -54,7 +54,7 @@
     "collection-extensions": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "summary": "Collection library for Dylan",
+        "summary": "Collection library",
         "category": "utilities",
         "keywords": [ ],
         "releases": {
@@ -67,7 +67,7 @@
     "command-interface": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "summary": "Interactive command interface system for Dylan",
+        "summary": "Interactive command interface system",
         "category": "utilities",
         "keywords": [ ],
         "releases": {
@@ -80,12 +80,16 @@
     "command-line-parser": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "opendylan license",
-        "summary": "Command line processing for Dylan",
+        "summary": "Command line processing",
         "category": "utilities",
         "keywords": [ "cli", "flags" ],
         "releases": {
-            "head": {
-                "deps": [ ],
+            "2.0.0": {
+                "deps": [ "strings@1.0" ],
+                "location": "https://github.com/dylan-lang/command-line-parser"
+            },
+            "1.0.0": {
+                "deps": [ "strings@1.0" ],
                 "location": "https://github.com/dylan-lang/command-line-parser"
             }
         }
@@ -183,19 +187,21 @@
     },
     "dylan-tool": {
         "contact": "dylan-lang@googlegroups.com",
-        "summary": "Manage Dylan workspaces and packages",
+        "summary": "Manage Dylan workspaces, packages, and registries",
         "license-type": "MIT",
         "category": "language-tools",
         "keywords": [ "workspace", "package" ],
         "releases": {
-            "head": {
-                "deps": [ "command-line-parser head",
-                          "json head",
-                          "pacman head",
-                          "regular-expressions head",
-                          "uncommon-dylan head",
-                          "workspaces head" ],
-                "location": "https://github.com/cgay/dylan-tool"
+            "0.1.0": {
+                "deps": [
+                    "command-line-parser@2.0",
+                    "json@1.0",
+                    "pacman",
+                    "regular-expressions@1.0",
+                    "uncommon-dylan@0.2",
+                    "workspaces"
+                ],
+                "location": "https://github.com/dylan-lang/dylan-tool"
             }
         }
     },
@@ -311,17 +317,18 @@
         "keywords": [ ],
         "releases": {
             "head": {
-                "deps": [ "base64 head",
-                          "concurrency head",
-                          "logging head",
-                          "meta head",
-                          "mime head",
-                          "serialization head",
-                          "sphinx-extensions head",
-                          "uncommon-dylan head",
-                          "uri head",
-                          "xml-parser head"
-                        ],
+                "deps": [
+                    "base64",
+                    "concurrency",
+                    "logging",
+                    "meta",
+                    "mime",
+                    "serialization",
+                    "sphinx-extensions",
+                    "uncommon-dylan",
+                    "uri",
+                    "xml-parser"
+                ],
                 "location": "https://github.com/dylan-lang/http"
             }
         }
@@ -334,6 +341,10 @@
         "keywords": [ "workspace", "package" ],
         "releases": {
             "head": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/json"
+            },
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/json"
             }
@@ -373,12 +384,13 @@
         "keywords": [ "lsp" ],
         "releases": {
             "head": {
-                "deps": [ "command-line-parser head",
-                          "json head",
-                          "pacman head",
-                          "uncommon-dylan head",
-                          "workspaces head"
-                        ],
+                "deps": [
+                    "command-line-parser@2.0",
+                    "json@1.0",
+                    "pacman@head",
+                    "uncommon-dylan@0.2",
+                    "workspaces@head"
+                ],
                 "location": "https://github.com/pedro-w/lsp-dylan"
             }
         }
@@ -399,7 +411,7 @@
     "meta": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "summary": "Recursive descent parser DSL for Dylan",
+        "summary": "Recursive descent parser DSL",
         "category": "development tools",
         "keywords": [ ],
         "releases": {
@@ -443,14 +455,16 @@
         "keywords": [ ],
         "releases": {
             "head": {
-                "deps": [ "sphinx-extensions head",
-                          "collection-extensions head",
-                          "command-line-parser head",
-                          "hash-algorithms head",
-                          "logging head",
-                          "regular-expressions head",
-                          "strings head",
-                          "testworks head" ],
+                "deps": [
+                    "sphinx-extensions",
+                    "collection-extensions",
+                    "command-line-parser",
+                    "hash-algorithms",
+                    "logging",
+                    "regular-expressions",
+                    "strings",
+                    "testworks"
+                ],
                 "location": "https://github.com/dylan-lang/opendylan"
             },
             "2020.1.0": {
@@ -490,17 +504,21 @@
         "releases": {
             "head": {
                 "deps": [
-                    "json head",
-                    "regular-expressions head",
-                    "uncommon-dylan head" ],
-                "location": "https://github.com/cgay/pacman"
+                    "json@1.0",
+                    "regular-expressions@1.0",
+                    "testworks@1.1",
+                    "uncommon-dylan@0.2"
+                ],
+                "location": "https://github.com/dylan-lang/pacman"
             },
             "0.0.2": {
                 "deps": [
-                    "json head",
-                    "regular-expressions head",
-                    "uncommon-dylan head" ],
-                "location": "https://github.com/cgay/pacman"
+                    "json@1.0",
+                    "regular-expressions@1.0",
+                    "testworks@1.1",
+                    "uncommon-dylan@0.2"
+                ],
+                "location": "https://github.com/dylan-lang/pacman"
             }
         }
     },
@@ -514,7 +532,7 @@
         "releases": {
             "head": {
                 "deps": [ ],
-                "location": "https://github.com/cgay/pacman-catalog"
+                "location": "https://github.com/dylan-lang/pacman-catalog"
             }
         }
     },
@@ -551,8 +569,8 @@
         "category": "parsers",
         "keywords": [ "regex", "regexp" ],
         "releases": {
-            "head": {
-                "deps": [ ],
+            "1.0.0": {
+                "deps": [ "strings" ],
                 "location": "https://github.com/dylan-lang/regular-expressions"
             }
         }
@@ -642,7 +660,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/strings"
             }
@@ -668,8 +686,16 @@
         "category": "testing",
         "keywords": [ ],
         "releases": {
-            "head": {
-                "deps": [ ],
+            "1.1.0": {
+                "deps": [
+                    "command-line-parser"
+                ],
+                "location": "https://github.com/dylan-lang/testworks"
+            },
+            "1.0.0": {
+                "deps": [
+                    "command-line-parser"
+                ],
                 "location": "https://github.com/dylan-lang/testworks"
             }
         }
@@ -696,7 +722,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.2.0": {
                 "deps": [ ],
                 "location": "https://github.com/cgay/uncommon-dylan"
             },
@@ -806,11 +832,13 @@
         "releases": {
             "head": {
                 "deps": [
-                    "json head",
-                    "regular-expressions head",
-                    "uncommon-dylan head"
+                    "json@1.0",
+                    "pacman",
+                    "regular-expressions@1.0",
+                    "testworks@1.1",
+                    "uncommon-dylan@0.2"
                 ],
-                "location": "https://github.com/cgay/workspaces"
+                "location": "https://github.com/dylan-lang/workspaces"
             }
         }
     },
