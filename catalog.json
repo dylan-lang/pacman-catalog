@@ -6,7 +6,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/anaphora"
             }
@@ -19,7 +19,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.7.3": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/atom-language-dylan"
             }
@@ -32,7 +32,7 @@
         "category": "encoding",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/base64"
             }
@@ -45,7 +45,7 @@
         "category": "parsers",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/binary-data"
             }
@@ -58,7 +58,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/collection-extensions"
             }
@@ -71,7 +71,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/command-interface"
             }
@@ -101,7 +101,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-foundry/concurrency"
             }
@@ -114,7 +114,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-foundry/deft"
             }
@@ -127,7 +127,7 @@
         "category": "documentation",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/doctower"
             }
@@ -140,7 +140,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/dylan-mode"
             }
@@ -153,7 +153,7 @@
         "category": "documentation",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/dylan-programming-book"
             }
@@ -166,7 +166,7 @@
         "category": "documentation",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/dylan-reference-manual"
             }
@@ -179,7 +179,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/dylan-syntax-support"
             }
@@ -212,7 +212,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/dylan-vim"
             }
@@ -225,7 +225,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/dylan.tmbundle"
             }
@@ -238,7 +238,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/dynamic-binding"
             }
@@ -251,7 +251,7 @@
         "category": "graphics",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/graph-viewer"
             }
@@ -264,7 +264,7 @@
         "category": "graphics",
         "keywords": [ "presentation" ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/graphviz-renderer"
             }
@@ -277,7 +277,7 @@
         "category": "testing",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/gui-testworks"
             }
@@ -290,7 +290,7 @@
         "category": "cryptography",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/hash-algorithms"
             }
@@ -303,7 +303,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/homebrew-dylan"
             }
@@ -316,7 +316,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [
                     "base64",
                     "concurrency",
@@ -340,10 +340,6 @@
         "category": "parsers",
         "keywords": [ "workspace", "package" ],
         "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/json"
-            },
             "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/json"
@@ -357,7 +353,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/lisp-to-dylan"
             }
@@ -370,7 +366,15 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "2.0.0": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
+            "1.0.1": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/logging"
             }
@@ -383,7 +387,7 @@
         "category": "development tools",
         "keywords": [ "lsp" ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [
                     "command-line-parser@2.0",
                     "json@1.0",
@@ -402,7 +406,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/melange"
             }
@@ -415,7 +419,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/meta"
             }
@@ -428,7 +432,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/mime"
             }
@@ -441,7 +445,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/monday"
             }
@@ -454,19 +458,6 @@
         "category": "compilers",
         "keywords": [ ],
         "releases": {
-            "head": {
-                "deps": [
-                    "sphinx-extensions",
-                    "collection-extensions",
-                    "command-line-parser",
-                    "hash-algorithms",
-                    "logging",
-                    "regular-expressions",
-                    "strings",
-                    "testworks"
-                ],
-                "location": "https://github.com/dylan-lang/opendylan"
-            },
             "2020.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/opendylan"
@@ -488,7 +479,7 @@
         "category": "apps",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/opendylan.org"
             }
@@ -502,15 +493,6 @@
         "category": "development tools",
         "keywords": [ "package" ],
         "releases": {
-            "head": {
-                "deps": [
-                    "json@1.0",
-                    "regular-expressions@1.0",
-                    "testworks@1.1",
-                    "uncommon-dylan@0.2"
-                ],
-                "location": "https://github.com/dylan-lang/pacman"
-            },
             "0.0.2": {
                 "deps": [
                     "json@1.0",
@@ -530,7 +512,7 @@
         "category": "development tools",
         "keywords": [ "package" ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/pacman-catalog"
             }
@@ -543,7 +525,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/peg-parser"
             }
@@ -556,7 +538,7 @@
         "category": "data structures",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/priority-queue"
             }
@@ -582,7 +564,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/sequence-stream"
             }
@@ -595,7 +577,7 @@
         "category": "utilities",
         "keywords": [ "json", "marshal" ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-foundry/serialization"
             }
@@ -608,7 +590,7 @@
         "category": "examples",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/shootout"
             }
@@ -621,7 +603,7 @@
         "category": "data structures",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/skip-list"
             }
@@ -634,7 +616,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/slot-visitor"
             }
@@ -647,7 +629,7 @@
         "category": "documentation",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/sphinx-extensions"
             }
@@ -673,7 +655,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/template-engine"
             }
@@ -708,7 +690,7 @@
         "summary": "Time, date, and time zone manipulation",
         "category": "utilities",
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/cgay/time",
             }
@@ -739,7 +721,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/uri"
             }
@@ -752,7 +734,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-foundry/uuid"
             }
@@ -765,7 +747,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/vscode-dylan"
             }
@@ -778,7 +760,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/web-framework"
             }
@@ -791,7 +773,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/web-ide-backend"
             }
@@ -804,7 +786,7 @@
         "category": "uncategorized",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/website"
             }
@@ -817,7 +799,7 @@
         "category": "web apps",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/wiki"
             }
@@ -830,7 +812,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [
                     "json@1.0",
                     "pacman",
@@ -849,7 +831,7 @@
         "category": "io",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/wrapper-streams"
             }
@@ -862,7 +844,7 @@
         "category": "parsers",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/xml-parser"
             }
@@ -875,7 +857,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/xml-rpc"
             }
@@ -888,7 +870,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/xmpp"
             }
@@ -901,7 +883,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/xmpp-bot"
             }
@@ -914,7 +896,7 @@
         "category": "compression",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/zlib"
             }
