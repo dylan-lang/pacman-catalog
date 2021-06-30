@@ -84,6 +84,10 @@
         "category": "utilities",
         "keywords": [ "cli", "flags" ],
         "releases": {
+            "3.0.0": {
+                "deps": [ "strings@1.0" ],
+                "location": "https://github.com/dylan-lang/command-line-parser"
+            },
             "2.0.0": {
                 "deps": [ "strings@1.0" ],
                 "location": "https://github.com/dylan-lang/command-line-parser"
@@ -316,6 +320,21 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
+            "0.1.1": {
+                "deps": [
+                    "base64",
+                    "concurrency",
+                    "logging",
+                    "meta",
+                    "mime",
+                    "serialization",
+                    "sphinx-extensions",
+                    "uncommon-dylan",
+                    "uri",
+                    "xml-parser"
+                ],
+                "location": "https://github.com/dylan-lang/http"
+            },
             "0.1.0": {
                 "deps": [
                     "base64",
@@ -366,6 +385,14 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
+            "2.1.0": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
+            "2.0.1": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
             "2.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/logging"
@@ -391,9 +418,9 @@
                 "deps": [
                     "command-line-parser@2.0",
                     "json@1.0",
-                    "pacman@head",
+                    "pacman@0.0.2",
                     "uncommon-dylan@0.2",
-                    "workspaces@head"
+                    "workspaces@0.1"
                 ],
                 "location": "https://github.com/pedro-w/lsp-dylan"
             }
@@ -668,9 +695,15 @@
         "category": "testing",
         "keywords": [ ],
         "releases": {
+            "2.0.0": {
+                "deps": [
+                    "command-line-parser@3.0"
+                ],
+                "location": "https://github.com/dylan-lang/testworks"
+            },
             "1.1.0": {
                 "deps": [
-                    "command-line-parser"
+                    "command-line-parser@2.0"
                 ],
                 "location": "https://github.com/dylan-lang/testworks"
             },
@@ -721,7 +754,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "0.1.0": {
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/uri"
             }
@@ -815,7 +848,7 @@
             "0.1.0": {
                 "deps": [
                     "json@1.0",
-                    "pacman",
+                    "pacman@0.0.2",
                     "regular-expressions@1.0",
                     "testworks@1.1",
                     "uncommon-dylan@0.2"

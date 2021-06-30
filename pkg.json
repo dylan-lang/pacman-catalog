@@ -1,8 +1,8 @@
 {
     "name": "pacman-catalog",
     "deps": [            # for the tests
-        "pacman",
-        "testworks",
+        "pacman@0.0.2",
+        "testworks@2.0",
     ],
     "location": "https://github.com/dylan-lang/pacman-catalog"
 }
