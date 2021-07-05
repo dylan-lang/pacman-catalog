@@ -2,11 +2,11 @@
     "anaphora": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "None",
-        "summary": "Anaphoric constructs for Dylan",
+        "summary": "Anaphoric constructs",
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/anaphora"
             }
@@ -19,7 +19,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.7.3": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/atom-language-dylan"
             }
@@ -32,7 +32,7 @@
         "category": "encoding",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/base64"
             }
@@ -45,7 +45,7 @@
         "category": "parsers",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/binary-data"
             }
@@ -54,11 +54,11 @@
     "collection-extensions": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "summary": "Collection library for Dylan",
+        "summary": "Collection library",
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/collection-extensions"
             }
@@ -67,11 +67,11 @@
     "command-interface": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "MIT",
-        "summary": "Interactive command interface system for Dylan",
+        "summary": "Interactive command interface system",
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/command-interface"
             }
@@ -80,12 +80,20 @@
     "command-line-parser": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "opendylan license",
-        "summary": "Command line processing for Dylan",
+        "summary": "Command line processing",
         "category": "utilities",
         "keywords": [ "cli", "flags" ],
         "releases": {
-            "head": {
-                "deps": [ ],
+            "3.0.0": {
+                "deps": [ "strings@1.0" ],
+                "location": "https://github.com/dylan-lang/command-line-parser"
+            },
+            "2.0.0": {
+                "deps": [ "strings@1.0" ],
+                "location": "https://github.com/dylan-lang/command-line-parser"
+            },
+            "1.0.0": {
+                "deps": [ "strings@1.0" ],
                 "location": "https://github.com/dylan-lang/command-line-parser"
             }
         }
@@ -97,183 +105,42 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-foundry/concurrency"
             }
         }
     },
-    "deft": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "MIT",
-        "summary": "Dylan Environment For Tools",
-        "category": "development tools",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-foundry/deft"
-            }
-        }
-    },
-    "doctower": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "None",
-        "summary": "Generate documentation from Dylan code comments",
-        "category": "documentation",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/doctower"
-            }
-        }
-    },
-    "dylan-mode": {
+    "dylan-emacs-support": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "GPL",
         "summary": "Emacs mode for indenting and highlighting Dylan code",
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
-                "location": "https://github.com/dylan-lang/dylan-mode"
-            }
-        }
-    },
-    "dylan-programming-book": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "Dylan Programming Guide - a book about Dylan",
-        "category": "documentation",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/dylan-programming-book"
-            }
-        }
-    },
-    "dylan-reference-manual": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "The Dylan Reference Manual (DRM)",
-        "category": "documentation",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/dylan-reference-manual"
-            }
-        }
-    },
-    "dylan-syntax-support": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "MIT",
-        "summary": "Source files for generating syntax definitions for VSCode, Atom, Sublime Text and Textmate",
-        "category": "editor support",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/dylan-syntax-support"
+                "location": "https://github.com/dylan-lang/dylan-emacs-support"
             }
         }
     },
     "dylan-tool": {
         "contact": "dylan-lang@googlegroups.com",
-        "summary": "Manage Dylan workspaces and packages",
+        "summary": "Manage Dylan workspaces, packages, and registries",
         "license-type": "MIT",
         "category": "language-tools",
         "keywords": [ "workspace", "package" ],
         "releases": {
-            "head": {
-                "deps": [ "command-line-parser head",
-                          "json head",
-                          "pacman head",
-                          "regular-expressions head",
-                          "uncommon-dylan head",
-                          "workspaces head" ],
-                "location": "https://github.com/cgay/dylan-tool"
-            }
-        }
-    },
-    "dylan-vim": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "VIM syntax highlighting for Dylan",
-        "category": "editor support",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/dylan-vim"
-            }
-        }
-    },
-    "dylan.tmbundle": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "TextMate support for Dylan",
-        "category": "editor support",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/dylan.tmbundle"
-            }
-        }
-    },
-    "dynamic-binding": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "Dynamically scoped bindings",
-        "category": "utilities",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/dynamic-binding"
-            }
-        }
-    },
-    "graph-viewer": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "A graph viewer and layouter with an OpenGL interface",
-        "category": "graphics",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/graph-viewer"
-            }
-        }
-    },
-    "graphviz-renderer": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "Generate dot and gml files from a graph",
-        "category": "graphics",
-        "keywords": [ "presentation" ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/graphviz-renderer"
-            }
-        }
-    },
-    "gui-testworks": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "Simple GUI wrapper for Testworks",
-        "category": "testing",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/gui-testworks"
+            "0.1.0": {
+                "deps": [
+                    "command-line-parser@2.0",
+                    "json@1.0",
+                    "pacman",
+                    "regular-expressions@1.0",
+                    "uncommon-dylan@0.2",
+                    "workspaces"
+                ],
+                "location": "https://github.com/dylan-lang/dylan-tool"
             }
         }
     },
@@ -284,22 +151,9 @@
         "category": "cryptography",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/hash-algorithms"
-            }
-        }
-    },
-    "homebrew-dylan": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "Repository for a tap for homebrew for Mac OS X builds",
-        "category": "utilities",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/homebrew-dylan"
             }
         }
     },
@@ -310,18 +164,34 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
-                "deps": [ "base64 head",
-                          "concurrency head",
-                          "logging head",
-                          "meta head",
-                          "mime head",
-                          "serialization head",
-                          "sphinx-extensions head",
-                          "uncommon-dylan head",
-                          "uri head",
-                          "xml-parser head"
-                        ],
+            "0.1.1": {
+                "deps": [
+                    "base64",
+                    "concurrency",
+                    "logging",
+                    "meta",
+                    "mime",
+                    "serialization",
+                    "sphinx-extensions",
+                    "uncommon-dylan",
+                    "uri",
+                    "xml-parser"
+                ],
+                "location": "https://github.com/dylan-lang/http"
+            },
+            "0.1.0": {
+                "deps": [
+                    "base64",
+                    "concurrency",
+                    "logging",
+                    "meta",
+                    "mime",
+                    "serialization",
+                    "sphinx-extensions",
+                    "uncommon-dylan",
+                    "uri",
+                    "xml-parser"
+                ],
                 "location": "https://github.com/dylan-lang/http"
             }
         }
@@ -333,7 +203,7 @@
         "category": "parsers",
         "keywords": [ "workspace", "package" ],
         "releases": {
-            "head": {
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/json"
             }
@@ -346,7 +216,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/lisp-to-dylan"
             }
@@ -359,7 +229,23 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "2.1.0": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
+            "2.0.1": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
+            "2.0.0": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
+            "1.0.1": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/logging"
+            },
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/logging"
             }
@@ -372,14 +258,15 @@
         "category": "development tools",
         "keywords": [ "lsp" ],
         "releases": {
-            "head": {
-                "deps": [ "command-line-parser head",
-                          "json head",
-                          "pacman head",
-                          "uncommon-dylan head",
-                          "workspaces head"
-                        ],
-                "location": "https://github.com/pedro-w/lsp-dylan"
+            "0.1.0": {
+                "deps": [
+                    "command-line-parser@2.0",
+                    "json@1.0",
+                    "pacman@0.0.2",
+                    "uncommon-dylan@0.2",
+                    "workspaces@0.1"
+                ],
+                "location": "https://github.com/dylan-lang/lsp-dylan"
             }
         }
     },
@@ -390,7 +277,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/melange"
             }
@@ -399,11 +286,11 @@
     "meta": {
         "contact": "dylan-lang@googlegroups.com",
         "license-type": "unknown",
-        "summary": "Recursive descent parser DSL for Dylan",
+        "summary": "Recursive descent parser DSL",
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/meta"
             }
@@ -416,22 +303,9 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/mime"
-            }
-        }
-    },
-    "monday": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "GPL",
-        "summary": "Literate programming tools",
-        "category": "utilities",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/monday"
             }
         }
     },
@@ -442,17 +316,6 @@
         "category": "compilers",
         "keywords": [ ],
         "releases": {
-            "head": {
-                "deps": [ "sphinx-extensions head",
-                          "collection-extensions head",
-                          "command-line-parser head",
-                          "hash-algorithms head",
-                          "logging head",
-                          "regular-expressions head",
-                          "strings head",
-                          "testworks head" ],
-                "location": "https://github.com/dylan-lang/opendylan"
-            },
             "2020.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/opendylan"
@@ -467,19 +330,6 @@
             }
         }
     },
-    "opendylan.org": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "MIT",
-        "summary": "Host opendylan.org with the Dylan web server",
-        "category": "apps",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/opendylan.org"
-            }
-        }
-    },
     "pacman": {
         "contact": "dylan-lang@googlegroups.com",
         "description": "Dylan package manager -- search for, download, and install available Dylan software packages.",
@@ -488,19 +338,14 @@
         "category": "development tools",
         "keywords": [ "package" ],
         "releases": {
-            "head": {
-                "deps": [
-                    "json head",
-                    "regular-expressions head",
-                    "uncommon-dylan head" ],
-                "location": "https://github.com/cgay/pacman"
-            },
             "0.0.2": {
                 "deps": [
-                    "json head",
-                    "regular-expressions head",
-                    "uncommon-dylan head" ],
-                "location": "https://github.com/cgay/pacman"
+                    "json@1.0",
+                    "regular-expressions@1.0",
+                    "testworks@1.1",
+                    "uncommon-dylan@0.2"
+                ],
+                "location": "https://github.com/dylan-lang/pacman"
             }
         }
     },
@@ -512,9 +357,9 @@
         "category": "development tools",
         "keywords": [ "package" ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
-                "location": "https://github.com/cgay/pacman-catalog"
+                "location": "https://github.com/dylan-lang/pacman-catalog"
             }
         }
     },
@@ -525,7 +370,7 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/peg-parser"
             }
@@ -538,7 +383,7 @@
         "category": "data structures",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/priority-queue"
             }
@@ -551,8 +396,8 @@
         "category": "parsers",
         "keywords": [ "regex", "regexp" ],
         "releases": {
-            "head": {
-                "deps": [ ],
+            "1.0.0": {
+                "deps": [ "strings" ],
                 "location": "https://github.com/dylan-lang/regular-expressions"
             }
         }
@@ -564,7 +409,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/sequence-stream"
             }
@@ -577,7 +422,7 @@
         "category": "utilities",
         "keywords": [ "json", "marshal" ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-foundry/serialization"
             }
@@ -590,7 +435,7 @@
         "category": "examples",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/shootout"
             }
@@ -603,7 +448,7 @@
         "category": "data structures",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/skip-list"
             }
@@ -616,7 +461,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/slot-visitor"
             }
@@ -629,7 +474,7 @@
         "category": "documentation",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/sphinx-extensions"
             }
@@ -642,22 +487,9 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/strings"
-            }
-        }
-    },
-    "template-engine": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "Template engine",
-        "category": "utilities",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/template-engine"
             }
         }
     },
@@ -668,23 +500,23 @@
         "category": "testing",
         "keywords": [ ],
         "releases": {
-            "head": {
-                "deps": [ ],
+            "2.0.0": {
+                "deps": [
+                    "command-line-parser@3.0"
+                ],
                 "location": "https://github.com/dylan-lang/testworks"
-            }
-        }
-    },
-    "time": {
-        "contact": "dylan-lang@googlegroups.com",
-        "description": "Time, date, and time zone manipulation that aims to be more efficient and complete than Open Dylan's system:date module. As of Dec 2020 this library is usable for time manipulation and naive (fixed offset) time zones but has no calendar functionality and 'aware' time zone functionality is incomplete.",
-        "keywords": [ ],
-        "license-type": "MIT",
-        "summary": "Time, date, and time zone manipulation",
-        "category": "utilities",
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/cgay/time",
+            },
+            "1.1.0": {
+                "deps": [
+                    "command-line-parser@2.0"
+                ],
+                "location": "https://github.com/dylan-lang/testworks"
+            },
+            "1.0.0": {
+                "deps": [
+                    "command-line-parser"
+                ],
+                "location": "https://github.com/dylan-lang/testworks"
             }
         }
     },
@@ -696,7 +528,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.2.0": {
                 "deps": [ ],
                 "location": "https://github.com/cgay/uncommon-dylan"
             },
@@ -713,7 +545,7 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "1.0.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/uri"
             }
@@ -726,7 +558,7 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-foundry/uuid"
             }
@@ -739,7 +571,7 @@
         "category": "editor support",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/vscode-dylan"
             }
@@ -752,48 +584,9 @@
         "category": "utilities",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/web-framework"
-            }
-        }
-    },
-    "web-ide-backend": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "MIT",
-        "summary": "Web backend for the Open Dylan IDE",
-        "category": "development tools",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/web-ide-backend"
-            }
-        }
-    },
-    "website": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "MIT",
-        "summary": "The opendylan.org web site",
-        "category": "uncategorized",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/website"
-            }
-        }
-    },
-    "wiki": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "MIT",
-        "summary": "A git-backed wiki web app",
-        "category": "web apps",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/wiki"
             }
         }
     },
@@ -804,13 +597,15 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [
-                    "json head",
-                    "regular-expressions head",
-                    "uncommon-dylan head"
+                    "json@1.0",
+                    "pacman@0.0.2",
+                    "regular-expressions@1.0",
+                    "testworks@1.1",
+                    "uncommon-dylan@0.2"
                 ],
-                "location": "https://github.com/cgay/workspaces"
+                "location": "https://github.com/dylan-lang/workspaces"
             }
         }
     },
@@ -821,7 +616,7 @@
         "category": "io",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/wrapper-streams"
             }
@@ -834,7 +629,7 @@
         "category": "parsers",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/xml-parser"
             }
@@ -847,35 +642,9 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/xml-rpc"
-            }
-        }
-    },
-    "xmpp": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "XMPP",
-        "category": "network",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/xmpp"
-            }
-        }
-    },
-    "xmpp-bot": {
-        "contact": "dylan-lang@googlegroups.com",
-        "license-type": "unknown",
-        "summary": "XMPP bot",
-        "category": "network",
-        "keywords": [ ],
-        "releases": {
-            "head": {
-                "deps": [ ],
-                "location": "https://github.com/dylan-lang/xmpp-bot"
             }
         }
     },
@@ -886,7 +655,7 @@
         "category": "compression",
         "keywords": [ ],
         "releases": {
-            "head": {
+            "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/zlib"
             }
