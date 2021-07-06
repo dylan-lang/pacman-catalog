@@ -131,14 +131,16 @@
         "category": "language-tools",
         "keywords": [ "workspace", "package" ],
         "releases": {
-            "0.1.0": {
+            "0.2.0": {
                 "deps": [
-                    "command-line-parser@2.0",
+                    "command-line-parser@3.0",
                     "json@1.0",
-                    "pacman",
+                    "logging@2.1",
+                    "pacman@0.2.0",
                     "regular-expressions@1.0",
+                    "testworks@2.0",
                     "uncommon-dylan@0.2",
-                    "workspaces"
+                    "workspaces@0.2.0"
                 ],
                 "location": "https://github.com/dylan-lang/dylan-tool"
             }
@@ -260,11 +262,11 @@
         "releases": {
             "0.1.0": {
                 "deps": [
-                    "command-line-parser@2.0",
+                    "command-line-parser@3.0",
                     "json@1.0",
-                    "pacman@0.0.2",
+                    "pacman@0.2",
                     "uncommon-dylan@0.2",
-                    "workspaces@0.1"
+                    "workspaces@0.2"
                 ],
                 "location": "https://github.com/dylan-lang/lsp-dylan"
             }
@@ -338,6 +340,16 @@
         "category": "development tools",
         "keywords": [ "package" ],
         "releases": {
+            "0.2.0": {
+                "deps": [
+                    "json@1.0",
+                    "logging@2.0",
+                    "regular-expressions@1.0",
+                    "testworks@2.0",
+                    "uncommon-dylan@0.2"
+                ],
+                "location": "https://github.com/dylan-lang/pacman"
+            },
             "0.0.2": {
                 "deps": [
                     "json@1.0",
@@ -508,7 +520,7 @@
             },
             "1.1.0": {
                 "deps": [
-                    "command-line-parser@2.0"
+                    "command-line-parser@3.0"
                 ],
                 "location": "https://github.com/dylan-lang/testworks"
             },
@@ -597,12 +609,13 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
-            "0.1.0": {
+            "0.2.0": {
                 "deps": [
                     "json@1.0",
-                    "pacman@0.0.2",
+                    "logging@2.1",
+                    "pacman@0.2",
                     "regular-expressions@1.0",
-                    "testworks@1.1",
+                    "testworks@2.0",
                     "uncommon-dylan@0.2"
                 ],
                 "location": "https://github.com/dylan-lang/workspaces"
