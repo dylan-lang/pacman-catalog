@@ -397,6 +397,10 @@
         "category": "development tools",
         "keywords": [ "package" ],
         "releases": {
+            "0.2.1": {
+                "deps": [ ],
+                "location": "https://github.com/dylan-lang/pacman-catalog"
+            },
             "0.1.0": {
                 "deps": [ ],
                 "location": "https://github.com/dylan-lang/pacman-catalog"
