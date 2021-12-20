@@ -11,7 +11,7 @@ catalog parses correctly.
 
 You're changes will not be "live" until a new release of this repository is created on
 GitHub. A local copy of this repository is cached by `pacman` in
-`${DYLAN}/pkg/pacman-catalog`. To for a quicker update after a new release is published,
+`${DYLAN}/pkg/pacman-catalog`. For a quicker update after a new release is published,
 delete that directory.
 
 **Note:** this package management system is new for Dylan, and many packages are still
