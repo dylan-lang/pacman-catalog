@@ -84,6 +84,10 @@
         "category": "utilities",
         "keywords": [ "cli", "flags" ],
         "releases": {
+            "3.1.0": {
+                "deps": [ "strings@1.0" ],
+                "location": "https://github.com/dylan-lang/command-line-parser"
+            },
             "3.0.0": {
                 "deps": [ "strings@1.0" ],
                 "location": "https://github.com/dylan-lang/command-line-parser"
@@ -166,6 +170,20 @@
         "category": "network",
         "keywords": [ ],
         "releases": {
+            "1.1.0": {
+                "deps": [
+                    "base64@0.1",
+                    "concurrency@0.1",
+                    "logging@2.1",
+                    "meta@0.1",
+                    "mime@0.1",
+                    "serialization@0.1",
+                    "sphinx-extensions@0.1",
+                    "uri@1.0",
+                    "xml-parser@0.1"
+                ],
+                "location": "https://github.com/dylan-lang/http"
+            },
             "1.0.1": {
                 "deps": [
                     "base64@0.1",
