@@ -135,6 +135,20 @@
         "category": "language-tools",
         "keywords": [ "workspace", "package" ],
         "releases": {
+            "0.3.0": {
+                "deps": [
+                    "command-line-parser@3.1",
+                    "http@1.1",
+                    "json@1.0",
+                    "logging@2.1",
+                    "pacman@0.3.0",
+                    "regular-expressions@1.0",
+                    "testworks@2.0",
+                    "uncommon-dylan@0.2",
+                    "workspaces@0.3.0"
+                ],
+                "location": "https://github.com/dylan-lang/dylan-tool"
+            },
             "0.2.0": {
                 "deps": [
                     "command-line-parser@3.0",
@@ -386,6 +400,16 @@
         "category": "development tools",
         "keywords": [ "package" ],
         "releases": {
+            "0.3.0": {
+                "deps": [
+                    "json@1.0",
+                    "logging@2.1",
+                    "regular-expressions@1.0",
+                    "testworks@2.0",
+                    "uncommon-dylan@0.2"
+                ],
+                "location": "https://github.com/dylan-lang/pacman"
+            },
             "0.2.0": {
                 "deps": [
                     "json@1.0",
@@ -659,6 +683,17 @@
         "category": "development tools",
         "keywords": [ ],
         "releases": {
+            "0.3.0": {
+                "deps": [
+                    "json@1.0",
+                    "logging@2.1",
+                    "pacman@0.3",
+                    "regular-expressions@1.0",
+                    "testworks@2.0",
+                    "uncommon-dylan@0.2"
+                ],
+                "location": "https://github.com/dylan-lang/workspaces"
+            },
             "0.2.0": {
                 "deps": [
                     "json@1.0",
