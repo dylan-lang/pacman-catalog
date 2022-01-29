@@ -6,8 +6,12 @@ Dylan packages and their dependencies.
 
 If you would like to add a new library to the catalog just send a pull request. In order
 to test your change, set the `DYLAN_CATALOG` shell variable to the pathname of your local
-catalog and then build and run the `pacman-catalog-test` library to verify that the
+catalog and then build and run the `pacman-catalog-test-suite` library to verify that the
 catalog parses correctly.
+
+```shell
+$ DYLAN_CATALOG=pacman-catalog/tests/catalog.json _build/bin/pacman-catalog-test-suite
+```
 
 You're changes will not be "live" until a new release of this repository is created on
 GitHub. A local copy of this repository is cached by `pacman` in
