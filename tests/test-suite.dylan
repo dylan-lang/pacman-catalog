@@ -1,4 +1,4 @@
-Module: pacman-catalog-test
+Module: pacman-catalog-test-suite
 
 // For now just make sure the catalog loads...
 
