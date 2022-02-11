@@ -1,0 +1,13 @@
+{
+  "category": "examples",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Dylan solutions to the great programming language shootout",
+  "keywords": [],
+  "name": "shootout",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/shootout",
+                 "version": "0.1.0"
+               }]
+}

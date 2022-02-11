@@ -1,0 +1,13 @@
+{
+  "category": "network",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "XML-RPC server and client",
+  "keywords": [],
+  "name": "xml-rpc",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/xml-rpc",
+                 "version": "0.1.0"
+               }]
+}

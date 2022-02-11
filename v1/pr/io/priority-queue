@@ -1,0 +1,13 @@
+{
+  "category": "data structures",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Priority queue data structure",
+  "keywords": [],
+  "name": "priority-queue",
+  "releases": [{
+                 "deps": [],
+                 "license": "LGPL",
+                 "url": "https://github.com/dylan-lang/priority-queue",
+                 "version": "0.1.0"
+               }]
+}

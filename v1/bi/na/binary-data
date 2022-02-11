@@ -1,0 +1,13 @@
+{
+  "category": "parsers",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "A DSL for parsing and assembling binary data",
+  "keywords": [],
+  "name": "binary-data",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/binary-data",
+                 "version": "0.1.0"
+               }]
+}

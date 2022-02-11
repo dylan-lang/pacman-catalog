@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Collection library",
+  "keywords": [],
+  "name": "collection-extensions",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/collection-extensions",
+                 "version": "0.1.0"
+               }]
+}

@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Concurrency utilities",
+  "keywords": [],
+  "name": "concurrency",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-foundry/concurrency",
+                 "version": "0.1.0"
+               }]
+}

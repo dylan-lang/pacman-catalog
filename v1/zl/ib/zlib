@@ -1,0 +1,13 @@
+{
+  "category": "compression",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Simple Dylan zlib wrapper",
+  "keywords": [],
+  "name": "zlib",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/zlib",
+                 "version": "0.1.0"
+               }]
+}

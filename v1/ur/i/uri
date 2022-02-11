@@ -1,0 +1,13 @@
+{
+  "category": "network",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "URI library",
+  "keywords": [],
+  "name": "uri",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/uri",
+                 "version": "1.0.0"
+               }]
+}

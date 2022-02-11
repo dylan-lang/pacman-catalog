@@ -1,0 +1,13 @@
+{
+  "category": "parsers",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Regular expressions",
+  "keywords": ["regex", "regexp"],
+  "name": "regular-expressions",
+  "releases": [{
+                 "deps": ["strings"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/regular-expressions",
+                 "version": "1.0.0"
+               }]
+}

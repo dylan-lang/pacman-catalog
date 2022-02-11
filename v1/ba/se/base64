@@ -1,0 +1,13 @@
+{
+  "category": "encoding",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Base64 encoding",
+  "keywords": [],
+  "name": "base64",
+  "releases": [{
+                 "deps": [],
+                 "license": "Public Domain",
+                 "url": "https://github.com/dylan-lang/base64",
+                 "version": "0.1.0"
+               }]
+}

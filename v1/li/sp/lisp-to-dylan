@@ -1,0 +1,13 @@
+{
+  "category": "development tools",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Convert Common Lisp code to Dylan",
+  "keywords": [],
+  "name": "lisp-to-dylan",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/lisp-to-dylan",
+                 "version": "0.1.0"
+               }]
+}

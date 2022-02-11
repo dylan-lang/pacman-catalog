@@ -1,0 +1,13 @@
+{
+  "category": "network",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "MIME type map",
+  "keywords": [],
+  "name": "mime",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/mime",
+                 "version": "0.1.0"
+               }]
+}

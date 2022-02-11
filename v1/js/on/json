@@ -1,0 +1,13 @@
+{
+  "category": "parsers",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "parse and write JSON data format",
+  "keywords": ["workspace", "package"],
+  "name": "json",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/json",
+                 "version": "1.0.0"
+               }]
+}

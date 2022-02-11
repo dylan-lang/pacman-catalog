@@ -8,6 +8,9 @@ end;
 
 define module pacman-catalog-test-suite
   use common-dylan;
-  use pacman, prefix: "pm/";
+  use pacman,
+    import: { catalog, load-all-packages };
+  use %pacman,
+    import: { validate-catalog };
   use testworks;
 end;

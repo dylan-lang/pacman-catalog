@@ -1,0 +1,13 @@
+{
+  "category": "development tools",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "C-FFI interface generator for Open Dylan",
+  "keywords": [],
+  "name": "melange",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/melange",
+                 "version": "0.1.0"
+               }]
+}

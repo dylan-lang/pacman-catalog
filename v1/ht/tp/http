@@ -1,0 +1,43 @@
+{
+  "category": "network",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "HTTP server and client",
+  "keywords": [],
+  "name": "http",
+  "releases": [{
+                 "deps": ["base64", "concurrency", "logging", "meta", "mime",
+                          "serialization", "sphinx-extensions",
+                          "uncommon-dylan", "uri", "xml-parser"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/http",
+                 "version": "0.1.0"
+               }, {
+                 "deps": ["base64", "concurrency", "logging", "meta", "mime",
+                          "serialization", "sphinx-extensions",
+                          "uncommon-dylan", "uri", "xml-parser"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/http",
+                 "version": "0.1.1"
+               }, {
+                 "deps": ["base64@0.1", "concurrency@0.1", "logging@2.1",
+                          "meta@0.1", "mime@0.1", "serialization@0.1",
+                          "sphinx-extensions@0.1", "uri@1.0", "xml-parser@0.1"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/http",
+                 "version": "1.0.0"
+               }, {
+                 "deps": ["base64@0.1", "concurrency@0.1", "logging@2.1",
+                          "meta@0.1", "mime@0.1", "serialization@0.1",
+                          "sphinx-extensions@0.1", "uri@1.0", "xml-parser@0.1"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/http",
+                 "version": "1.0.1"
+               }, {
+                 "deps": ["base64@0.1", "concurrency@0.1", "logging@2.1",
+                          "meta@0.1", "mime@0.1", "serialization@0.1",
+                          "sphinx-extensions@0.1", "uri@1.0", "xml-parser@0.1"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/http",
+                 "version": "1.1.0"
+               }]
+}

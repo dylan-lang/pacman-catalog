@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Universally unique identifiers",
+  "keywords": [],
+  "name": "uuid",
+  "releases": [{
+                 "deps": [],
+                 "license": "None",
+                 "url": "https://github.com/dylan-foundry/uuid",
+                 "version": "0.1.0"
+               }]
+}

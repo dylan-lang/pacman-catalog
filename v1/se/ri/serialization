@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Serialize Dylan objects to various formats",
+  "keywords": ["json", "marshal"],
+  "name": "serialization",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-foundry/serialization",
+                 "version": "0.1.0"
+               }]
+}

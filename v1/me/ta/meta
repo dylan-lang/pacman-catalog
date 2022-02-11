@@ -1,0 +1,13 @@
+{
+  "category": "development tools",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Recursive descent parser DSL",
+  "keywords": [],
+  "name": "meta",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/meta",
+                 "version": "0.1.0"
+               }]
+}

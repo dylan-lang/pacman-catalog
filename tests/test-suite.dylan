@@ -1,15 +1,10 @@
 Module: pacman-catalog-test-suite
 
-// For now just make sure the catalog loads...
-
-define test load-catalog-test ()
-  assert-no-errors(pm/load-catalog());
+define test test-validate-catalog ()
+  assert-no-errors(validate-catalog(catalog()));
+  let packages = load-all-packages(catalog());
+  test-output("loaded %d packages from catalog\n", packages.size);
+  assert-true(packages.size > 0);
 end;
 
-define suite pacman-catalog-suite ()
-  test load-catalog-test;
-end;
-
-begin
-  run-test-application(pacman-catalog-suite);
-end;
+run-test-application();
