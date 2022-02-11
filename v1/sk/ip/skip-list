@@ -1,0 +1,13 @@
+{
+  "category": "data structures",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Skip list collection library",
+  "keywords": [],
+  "name": "skip-list",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/skip-list",
+                 "version": "0.1.0"
+               }]
+}

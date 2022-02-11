@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "A replacement for the normal <sequence-stream> classes",
+  "keywords": [],
+  "name": "sequence-stream",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/sequence-stream",
+                 "version": "0.1.0"
+               }]
+}

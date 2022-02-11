@@ -1,0 +1,13 @@
+{
+  "category": "cryptography",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Cryptographic hash functions",
+  "keywords": [],
+  "name": "hash-algorithms",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/hash-algorithms",
+                 "version": "1.0.0"
+               }]
+}

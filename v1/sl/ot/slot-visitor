@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Define a visitor function to recursively visit and alter objects and",
+  "keywords": [],
+  "name": "slot-visitor",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/slot-visitor",
+                 "version": "0.1.0"
+               }]
+}

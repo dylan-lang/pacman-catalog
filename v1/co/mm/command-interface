@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Interactive command interface system",
+  "keywords": [],
+  "name": "command-interface",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/command-interface",
+                 "version": "0.1.0"
+               }]
+}

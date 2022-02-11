@@ -1,0 +1,13 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Anaphoric constructs",
+  "keywords": [],
+  "name": "anaphora",
+  "releases": [{
+                 "deps": [],
+                 "license": "None",
+                 "url": "https://github.com/dylan-lang/anaphora",
+                 "version": "0.1.0"
+               }]
+}

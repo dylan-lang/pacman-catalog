@@ -1,0 +1,18 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "uncommon-utils library provides utilities of extremely general nature that could potentially be candidates for moving to the common-dylan library at some point. Also provides the uncommon-dylan package, which shortens some of the names in the Dylan package, for example <integer> -> <int>.",
+  "keywords": [],
+  "name": "uncommon-dylan",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/cgay/uncommon-dylan",
+                 "version": "0.1.0"
+               }, {
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/cgay/uncommon-dylan",
+                 "version": "0.2.0"
+               }]
+}

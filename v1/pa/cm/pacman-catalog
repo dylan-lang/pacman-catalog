@@ -1,0 +1,18 @@
+{
+  "category": "development tools",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Dylan package manager catalog -- descriptors for all known Dylan packages.",
+  "keywords": ["package"],
+  "name": "pacman-catalog",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/pacman-catalog",
+                 "version": "0.1.0"
+               }, {
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/pacman-catalog",
+                 "version": "0.2.1"
+               }]
+}

@@ -1,0 +1,13 @@
+{
+  "category": "editor support",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Emacs mode for indenting and highlighting Dylan code",
+  "keywords": [],
+  "name": "dylan-emacs-support",
+  "releases": [{
+                 "deps": [],
+                 "license": "GPL",
+                 "url": "https://github.com/dylan-lang/dylan-emacs-support",
+                 "version": "0.1.0"
+               }]
+}

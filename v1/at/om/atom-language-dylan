@@ -1,0 +1,13 @@
+{
+  "category": "editor support",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Dylan language support for the Atom editor",
+  "keywords": [],
+  "name": "atom-language-dylan",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/atom-language-dylan",
+                 "version": "0.7.3"
+               }]
+}

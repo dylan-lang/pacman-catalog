@@ -1,0 +1,13 @@
+{
+  "category": "development tools",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "recursive descent parser that handles attributed parsing expression grammars (PEGs)",
+  "keywords": [],
+  "name": "peg-parser",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/peg-parser",
+                 "version": "0.1.0"
+               }]
+}

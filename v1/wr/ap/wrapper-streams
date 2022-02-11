@@ -1,0 +1,13 @@
+{
+  "category": "io",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Wrapper streams",
+  "keywords": [],
+  "name": "wrapper-streams",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/wrapper-streams",
+                 "version": "0.1.0"
+               }]
+}

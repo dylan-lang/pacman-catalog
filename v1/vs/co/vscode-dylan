@@ -1,0 +1,13 @@
+{
+  "category": "editor support",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Dylan support for Visual Studio Code",
+  "keywords": [],
+  "name": "vscode-dylan",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/vscode-dylan",
+                 "version": "0.1.0"
+               }]
+}

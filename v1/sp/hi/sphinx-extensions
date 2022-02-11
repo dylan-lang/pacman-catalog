@@ -1,0 +1,13 @@
+{
+  "category": "documentation",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Extensions to Sphinx for the Open Dylan website and documentation",
+  "keywords": [],
+  "name": "sphinx-extensions",
+  "releases": [{
+                 "deps": [],
+                 "license": "unknown",
+                 "url": "https://github.com/dylan-lang/sphinx-extensions",
+                 "version": "0.1.0"
+               }]
+}

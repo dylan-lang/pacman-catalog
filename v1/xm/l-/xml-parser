@@ -1,0 +1,13 @@
+{
+  "category": "parsers",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "XML parser",
+  "keywords": [],
+  "name": "xml-parser",
+  "releases": [{
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/xml-parser",
+                 "version": "0.1.0"
+               }]
+}
