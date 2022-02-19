@@ -18,5 +18,12 @@
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/workspaces",
                  "version": "0.3.0"
+               }, {
+                 "deps": ["json@1.0", "logging@2.1", "pacman@0.4",
+                          "regular-expressions@1.0", "testworks@2.0",
+                          "uncommon-dylan@0.2"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/workspaces",
+                 "version": "0.4.0"
                }]
 }
