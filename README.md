@@ -4,20 +4,9 @@ This repository is a set of package definitions for the Dylan programming langua
 data is used by the [pacman](https://github.com/dylan-lang/pacman) library to install
 Dylan packages and their dependencies.
 
-If you would like to add a new library to the catalog just send a pull
-request. In order to test your change, set the `DYLAN_CATALOG` shell variable
-to the directory containing your checkout of this repo and then build and run
-the `pacman-catalog-test-suite` library to verify that the catalog parses
-correctly and all dependencies can be resolved.
-
-```shell
-$ DYLAN_CATALOG=pacman-catalog/ _build/bin/pacman-catalog-test-suite
-```
-
-You're changes will not be "live" until a new release of this repository is created on
-GitHub. A local copy of this repository is cached by `pacman` in
-`${DYLAN}/pkg/pacman-catalog`. For a quicker update after a new release is published,
-delete that directory.
+If you would like to add a new library to the catalog just send a pull request
+and it will be automatically checked for syntactic correctness.  (A `dylan
+publish` command is coming soon. For now the catalog must be edited manually.)
 
 **Note:** this package management system is new for Dylan, and many packages are still
 bundled into the [opendylan](https://github.com/dylan-lang/opendylan) repository.  If
