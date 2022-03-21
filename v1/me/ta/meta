@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "meta",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/meta",

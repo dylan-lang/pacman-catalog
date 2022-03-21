@@ -5,8 +5,12 @@
   "keywords": ["lsp"],
   "name": "lsp-dylan",
   "releases": [{
-                 "deps": ["command-line-parser@3.0", "json@1.0", "pacman@0.2",
-                          "uncommon-dylan@0.2", "workspaces@0.2"],
+                 "dependencies": ["command-line-parser@3.0.0", "json@1.0.0",
+                                  "pacman@0.2.0", "uncommon-dylan@0.2.0",
+                                  "workspaces@0.2.0"],
+                 "deps": ["command-line-parser@3.0.0", "json@1.0.0",
+                          "pacman@0.2.0", "uncommon-dylan@0.2.0",
+                          "workspaces@0.2.0"],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/lsp-dylan",
                  "version": "0.1.0"

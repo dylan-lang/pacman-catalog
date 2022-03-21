@@ -5,29 +5,38 @@
   "keywords": ["cli", "flags"],
   "name": "command-line-parser",
   "releases": [{
-                 "deps": ["strings@1.0"],
-                 "license": "opendylan license",
-                 "url": "https://github.com/dylan-lang/command-line-parser",
-                 "version": "1.0.0"
-               }, {
-                 "deps": ["strings@1.0"],
-                 "license": "opendylan license",
-                 "url": "https://github.com/dylan-lang/command-line-parser",
-                 "version": "2.0.0"
-               }, {
-                 "deps": ["strings@1.0"],
-                 "license": "opendylan license",
-                 "url": "https://github.com/dylan-lang/command-line-parser",
-                 "version": "3.0.0"
-               }, {
-                 "deps": ["strings@1.1"],
-                 "license": "opendylan license",
-                 "url": "https://github.com/dylan-lang/command-line-parser",
-                 "version": "3.1.0"
-               }, {
-                 "deps": ["strings@1.1"],
+                 "dependencies": ["strings@1.1.0"],
+                 "deps": ["strings@1.1.0"],
                  "license": "opendylan license",
                  "url": "https://github.com/dylan-lang/command-line-parser",
                  "version": "3.1.1"
+               },
+               {
+                 "dependencies": ["strings@1.1.0"],
+                 "deps": ["strings@1.1.0"],
+                 "license": "opendylan license",
+                 "url": "https://github.com/dylan-lang/command-line-parser",
+                 "version": "3.1.0"
+               },
+               {
+                 "dependencies": ["strings@1.0.0"],
+                 "deps": ["strings@1.0.0"],
+                 "license": "opendylan license",
+                 "url": "https://github.com/dylan-lang/command-line-parser",
+                 "version": "3.0.0"
+               },
+               {
+                 "dependencies": ["strings@1.0.0"],
+                 "deps": ["strings@1.0.0"],
+                 "license": "opendylan license",
+                 "url": "https://github.com/dylan-lang/command-line-parser",
+                 "version": "2.0.0"
+               },
+               {
+                 "dependencies": ["strings@1.0.0"],
+                 "deps": ["strings@1.0.0"],
+                 "license": "opendylan license",
+                 "url": "https://github.com/dylan-lang/command-line-parser",
+                 "version": "1.0.0"
                }]
 }

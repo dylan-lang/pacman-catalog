@@ -5,6 +5,7 @@
   "keywords": ["regex", "regexp"],
   "name": "regular-expressions",
   "releases": [{
+                 "dependencies": ["strings"],
                  "deps": ["strings"],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/regular-expressions",

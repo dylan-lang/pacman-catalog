@@ -5,34 +5,56 @@
   "keywords": ["package"],
   "name": "pacman",
   "releases": [{
-                 "deps": ["json@1.0", "regular-expressions@1.0",
-                          "testworks@1.1", "uncommon-dylan@0.2"],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/pacman",
-                 "version": "0.0.2"
-               }, {
-                 "deps": ["json@1.0", "logging@2.0", "regular-expressions@1.0",
-                          "testworks@2.0", "uncommon-dylan@0.2"],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/pacman",
-                 "version": "0.2.0"
-               }, {
-                 "deps": ["json@1.0", "logging@2.1", "regular-expressions@1.0",
-                          "testworks@2.0", "uncommon-dylan@0.2"],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/pacman",
-                 "version": "0.3.0"
-               }, {
-                 "deps": ["json@1.0", "logging@2.1", "regular-expressions@1.0",
-                          "testworks@2.0", "uncommon-dylan@0.2"],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/pacman",
-                 "version": "0.4.0"
-               }, {
-                 "deps": ["json@1.0", "logging@2.1", "regular-expressions@1.0",
-                          "testworks@2.0", "uncommon-dylan@0.2"],
+                 "dependencies": ["json@1.0.0", "logging@2.1.0",
+                                  "regular-expressions@1.0.0",
+                                  "testworks@2.0.0", "uncommon-dylan@0.2.0"],
+                 "deps": ["json@1.0.0", "logging@2.1.0",
+                          "regular-expressions@1.0.0", "testworks@2.0.0",
+                          "uncommon-dylan@0.2.0"],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/pacman",
                  "version": "0.4.1"
+               },
+               {
+                 "dependencies": ["json@1.0.0", "logging@2.1.0",
+                                  "regular-expressions@1.0.0",
+                                  "testworks@2.0.0", "uncommon-dylan@0.2.0"],
+                 "deps": ["json@1.0.0", "logging@2.1.0",
+                          "regular-expressions@1.0.0", "testworks@2.0.0",
+                          "uncommon-dylan@0.2.0"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/pacman",
+                 "version": "0.4.0"
+               },
+               {
+                 "dependencies": ["json@1.0.0", "logging@2.1.0",
+                                  "regular-expressions@1.0.0",
+                                  "testworks@2.0.0", "uncommon-dylan@0.2.0"],
+                 "deps": ["json@1.0.0", "logging@2.1.0",
+                          "regular-expressions@1.0.0", "testworks@2.0.0",
+                          "uncommon-dylan@0.2.0"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/pacman",
+                 "version": "0.3.0"
+               },
+               {
+                 "dependencies": ["json@1.0.0", "logging@2.0.0",
+                                  "regular-expressions@1.0.0",
+                                  "testworks@2.0.0", "uncommon-dylan@0.2.0"],
+                 "deps": ["json@1.0.0", "logging@2.0.0",
+                          "regular-expressions@1.0.0", "testworks@2.0.0",
+                          "uncommon-dylan@0.2.0"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/pacman",
+                 "version": "0.2.0"
+               },
+               {
+                 "dependencies": ["json@1.0.0", "regular-expressions@1.0.0",
+                                  "testworks@1.1.0", "uncommon-dylan@0.2.0"],
+                 "deps": ["json@1.0.0", "regular-expressions@1.0.0",
+                          "testworks@1.1.0", "uncommon-dylan@0.2.0"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/pacman",
+                 "version": "0.0.2"
                }]
 }

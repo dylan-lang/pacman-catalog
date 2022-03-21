@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "binary-data",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/binary-data",

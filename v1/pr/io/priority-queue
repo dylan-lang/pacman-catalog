@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "priority-queue",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "LGPL",
                  "url": "https://github.com/dylan-lang/priority-queue",
