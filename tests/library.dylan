@@ -9,7 +9,7 @@ end;
 define module pacman-catalog-test-suite
   use common-dylan;
   use pacman,
-    import: { catalog, load-all-packages };
+    import: { catalog, load-all-catalog-packages };
   use %pacman,
     import: { validate-catalog };
   use testworks;
