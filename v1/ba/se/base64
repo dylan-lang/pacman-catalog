@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "base64",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "Public Domain",
                  "url": "https://github.com/dylan-lang/base64",

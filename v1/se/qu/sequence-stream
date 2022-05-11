@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "sequence-stream",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/sequence-stream",

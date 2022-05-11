@@ -5,6 +5,7 @@
   "keywords": ["json", "marshal"],
   "name": "serialization",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-foundry/serialization",

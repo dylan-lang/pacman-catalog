@@ -5,28 +5,25 @@
   "keywords": ["workspace", "package"],
   "name": "dylan-tool",
   "releases": [{
-                 "deps": ["command-line-parser@3.0", "json@1.0", "logging@2.1",
-                          "pacman@0.2.0", "regular-expressions@1.0",
-                          "testworks@2.0", "uncommon-dylan@0.2",
-                          "workspaces@0.2.0"],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/dylan-tool",
-                 "version": "0.2.0"
-               }, {
-                 "deps": ["command-line-parser@3.1", "http@1.1", "json@1.0",
-                          "logging@2.1", "pacman@0.3.0",
-                          "regular-expressions@1.0", "testworks@2.0",
-                          "uncommon-dylan@0.2", "workspaces@0.3.0"],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/dylan-tool",
-                 "version": "0.3.0"
-               }, {
-                 "deps": ["command-line-parser@3.1", "json@1.0",
-                          "logging@2.1", "pacman@0.4",
-                          "regular-expressions@1.0", "testworks@2.0",
-                          "uncommon-dylan@0.2", "workspaces@0.4"],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/dylan-tool",
-                 "version": "0.4.0"
-               }]
+      "dependencies": [
+          "command-line-parser@3.1.1",
+          "json@1.0",
+          "logging@2.1",
+          "regular-expressions@1.0",
+          "uncommon-dylan@0.2"
+      ],
+      "deps": [
+          "command-line-parser@3.1.1",
+          "json@1.0",
+          "logging@2.1",
+          "regular-expressions@1.0",
+          "uncommon-dylan@0.2"
+      ],
+      "dev-dependencies": [
+          "testworks@2.0"
+      ],
+      "license": "MIT",
+      "url": "https://github.com/dylan-lang/dylan-tool",
+      "version": "0.5.0"
+  }]
 }

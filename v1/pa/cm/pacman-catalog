@@ -5,14 +5,17 @@
   "keywords": ["package"],
   "name": "pacman-catalog",
   "releases": [{
-                 "deps": [],
-                 "license": "MIT",
-                 "url": "https://github.com/dylan-lang/pacman-catalog",
-                 "version": "0.1.0"
-               }, {
+                 "dependencies": [],
                  "deps": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/pacman-catalog",
                  "version": "0.2.1"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/pacman-catalog",
+                 "version": "0.1.0"
                }]
 }

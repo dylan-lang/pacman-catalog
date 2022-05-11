@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "web-framework",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/web-framework",

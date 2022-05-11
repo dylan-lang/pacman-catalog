@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "skip-list",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/skip-list",

@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "collection-extensions",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/collection-extensions",

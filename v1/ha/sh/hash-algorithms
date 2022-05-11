@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "hash-algorithms",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/hash-algorithms",

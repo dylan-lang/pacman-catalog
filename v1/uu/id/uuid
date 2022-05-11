@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "uuid",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "None",
                  "url": "https://github.com/dylan-foundry/uuid",

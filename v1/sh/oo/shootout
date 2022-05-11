@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "shootout",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/shootout",

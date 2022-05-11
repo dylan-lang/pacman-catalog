@@ -5,14 +5,17 @@
   "keywords": [],
   "name": "uncommon-dylan",
   "releases": [{
-                 "deps": [],
-                 "license": "MIT",
-                 "url": "https://github.com/cgay/uncommon-dylan",
-                 "version": "0.1.0"
-               }, {
+                 "dependencies": [],
                  "deps": [],
                  "license": "MIT",
                  "url": "https://github.com/cgay/uncommon-dylan",
                  "version": "0.2.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "license": "MIT",
+                 "url": "https://github.com/cgay/uncommon-dylan",
+                 "version": "0.1.0"
                }]
 }

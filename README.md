@@ -1,8 +1,9 @@
 # pacman-catalog
 
-This repository is a set of package definitions for the Dylan programming language. This
-data is used by the [pacman](https://github.com/dylan-lang/pacman) library to install
-Dylan packages and their dependencies.
+This repository is a set of package definitions for the Dylan programming
+language. This data is used by the
+[dylan-tool](https://github.com/dylan-lang/dylan-tool) library to install Dylan
+packages and their dependencies.
 
 If you would like to add a new library to the catalog just send a pull request
 and it will be automatically checked for syntactic correctness.  (A `dylan

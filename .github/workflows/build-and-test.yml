@@ -23,19 +23,19 @@ jobs:
 
       - name: Create workspace
         run: |
-          ./dylan new workspace work
+          ./dylan new workspace pc
 
       - uses: actions/checkout@v2
         with:
-          path: work/pacman-catalog
+          path: pc/pacman-catalog
 
       - name: Build pacman-catalog-test-suite
         run: |
-          cd work
-          ../dylan update
+          cd pc
+          DYLAN_CATALOG=./pacman-catalog ../dylan update
           ../dylan-compiler -build -jobs 3 pacman-catalog-test-suite
 
       - name: Run pacman-catalog-test-suite
         run: |
-          cd work
+          cd pc
           DYLAN_CATALOG=./pacman-catalog _build/bin/pacman-catalog-test-suite

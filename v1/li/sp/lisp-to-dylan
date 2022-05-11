@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "lisp-to-dylan",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/lisp-to-dylan",

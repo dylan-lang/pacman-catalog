@@ -5,6 +5,7 @@
   "keywords": [],
   "name": "anaphora",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "None",
                  "url": "https://github.com/dylan-lang/anaphora",

@@ -5,19 +5,24 @@
   "keywords": [],
   "name": "opendylan",
   "releases": [{
-                 "deps": [],
-                 "license": "DUAL",
-                 "url": "https://github.com/dylan-lang/opendylan",
-                 "version": "2014.1.0"
-               }, {
-                 "deps": [],
-                 "license": "DUAL",
-                 "url": "https://github.com/dylan-lang/opendylan",
-                 "version": "2019.1.0"
-               }, {
+                 "dependencies": [],
                  "deps": [],
                  "license": "DUAL",
                  "url": "https://github.com/dylan-lang/opendylan",
                  "version": "2020.1.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "license": "DUAL",
+                 "url": "https://github.com/dylan-lang/opendylan",
+                 "version": "2019.1.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "license": "DUAL",
+                 "url": "https://github.com/dylan-lang/opendylan",
+                 "version": "2014.1.0"
                }]
 }

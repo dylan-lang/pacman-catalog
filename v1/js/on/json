@@ -5,6 +5,7 @@
   "keywords": ["workspace", "package"],
   "name": "json",
   "releases": [{
+                 "dependencies": [],
                  "deps": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/json",
