@@ -2,7 +2,7 @@ Module: dylan-user
 
 define library pacman-catalog-test-suite
   use common-dylan;
-  use dylan-tool-commands,
+  use dylan-tool-lib,
     import: { pacman };
   use testworks;
 end;
