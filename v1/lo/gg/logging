@@ -7,6 +7,15 @@
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks@2.1.0"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/logging",
+                 "version": "2.2.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/logging",
                  "version": "2.1.0"
@@ -14,6 +23,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/logging",
                  "version": "2.0.1"
@@ -21,6 +31,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/logging",
                  "version": "2.0.0"
@@ -28,6 +39,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/logging",
                  "version": "1.0.1"
@@ -35,6 +47,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/logging",
                  "version": "1.0.0"
