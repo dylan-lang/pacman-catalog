@@ -5,9 +5,10 @@ language. This data is used by the
 [dylan-tool](https://github.com/dylan-lang/dylan-tool) library to install Dylan
 packages and their dependencies.
 
-If you would like to add a new library to the catalog just send a pull request
-and it will be automatically checked for syntactic correctness.  (A `dylan
-publish` command is coming soon. For now the catalog must be edited manually.)
+If you would like to add a new library to the catalog, or publish a new release
+of an existing package, see the [dylan
+publish](https://opendylan.org/documentation/dylan-tool/#dylan-publish)
+command.
 
 **Note:** this package management system is new for Dylan, and many packages are still
 bundled into the [opendylan](https://github.com/dylan-lang/opendylan) repository.  If

@@ -1,7 +1,7 @@
 {
   "category": "network",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "HTTP server and client",
+  "description": "HTTP client, server, and templating engine",
   "keywords": [],
   "name": "http",
   "releases": [{
@@ -14,6 +14,22 @@
                           "meta@0.1.0", "mime@0.1.0", "serialization@0.1.0",
                           "sphinx-extensions@0.1.0", "uri@1.0.0",
                           "xml-parser@0.1.0"],
+                 "dev-dependencies": ["testworks@2.1.0"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/http",
+                 "version": "1.1.1"
+               },
+               {
+                 "dependencies": ["base64@0.1.0", "concurrency@0.1.0",
+                                  "logging@2.1.0", "meta@0.1.0", "mime@0.1.0",
+                                  "serialization@0.1.0",
+                                  "sphinx-extensions@0.1.0", "uri@1.0.0",
+                                  "xml-parser@0.1.0"],
+                 "deps": ["base64@0.1.0", "concurrency@0.1.0", "logging@2.1.0",
+                          "meta@0.1.0", "mime@0.1.0", "serialization@0.1.0",
+                          "sphinx-extensions@0.1.0", "uri@1.0.0",
+                          "xml-parser@0.1.0"],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/http",
                  "version": "1.1.0"
@@ -28,6 +44,7 @@
                           "meta@0.1.0", "mime@0.1.0", "serialization@0.1.0",
                           "sphinx-extensions@0.1.0", "uri@1.0.0",
                           "xml-parser@0.1.0"],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/http",
                  "version": "1.0.1"
@@ -42,6 +59,7 @@
                           "meta@0.1.0", "mime@0.1.0", "serialization@0.1.0",
                           "sphinx-extensions@0.1.0", "uri@1.0.0",
                           "xml-parser@0.1.0"],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/http",
                  "version": "1.0.0"
@@ -53,6 +71,7 @@
                  "deps": ["base64", "concurrency", "logging", "meta", "mime",
                           "serialization", "sphinx-extensions",
                           "uncommon-dylan", "uri", "xml-parser"],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/http",
                  "version": "0.1.1"
@@ -64,6 +83,7 @@
                  "deps": ["base64", "concurrency", "logging", "meta", "mime",
                           "serialization", "sphinx-extensions",
                           "uncommon-dylan", "uri", "xml-parser"],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/http",
                  "version": "0.1.0"

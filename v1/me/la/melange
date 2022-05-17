@@ -1,12 +1,24 @@
 {
   "category": "development tools",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "C-FFI interface generator for Open Dylan",
+  "description": "Generates C-FFI bindings by parsing C header files",
   "keywords": [],
   "name": "melange",
   "releases": [{
+                 "dependencies": ["command-line-parser@3.1.1", "meta@0.1.0",
+                                  "sphinx-extensions@0.1.0",
+                                  "xml-parser@0.1.0"],
+                 "deps": ["command-line-parser@3.1.1", "meta@0.1.0",
+                          "sphinx-extensions@0.1.0", "xml-parser@0.1.0"],
+                 "dev-dependencies": ["testworks@2.1.0"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/melange",
+                 "version": "0.1.1"
+               },
+               {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/melange",
                  "version": "0.1.0"
