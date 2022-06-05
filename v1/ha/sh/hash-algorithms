@@ -1,12 +1,21 @@
 {
-  "category": "cryptography",
-  "contact": "dylan-lang@googlegroups.com",
-  "description": "Cryptographic hash functions",
+  "category": "",
+  "contact": "",
+  "description": "SHA-1 and SHA-2 hashing",
   "keywords": [],
   "name": "hash-algorithms",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/hash-algorithms",
+                 "version": "1.1.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/hash-algorithms",
                  "version": "1.0.0"
