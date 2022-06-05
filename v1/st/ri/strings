@@ -1,12 +1,21 @@
 {
   "category": "utilities",
-  "contact": "dylan-lang@googlegroups.com",
-  "description": "String manipulation",
+  "contact": "",
+  "description": "String manipulation functions",
   "keywords": [],
   "name": "strings",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/strings",
+                 "version": "1.2.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "",
                  "url": "https://github.com/dylan-lang/strings",
                  "version": "1.1.0"
@@ -14,6 +23,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "",
                  "url": "https://github.com/dylan-lang/strings",
                  "version": "1.0.0"
