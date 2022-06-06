@@ -1,12 +1,21 @@
 {
   "category": "documentation",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "Extensions to Sphinx for the Open Dylan website and documentation",
+  "description": "Dylan extensions to the Sphinx documentation tools",
   "keywords": [],
   "name": "sphinx-extensions",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/sphinx-extensions",
+                 "version": "0.2.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/sphinx-extensions",
                  "version": "0.1.0"
