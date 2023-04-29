@@ -5,8 +5,17 @@
   "keywords": [],
   "name": "xml-parser",
   "releases": [{
+                 "dependencies": ["meta@0.1"],
+                 "deps": ["meta@0.1"],
+                 "dev-dependencies": ["testworks@2.1"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/xml-parser",
+                 "version": "0.2.0"
+               },
+               {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/xml-parser",
                  "version": "0.1.0"
