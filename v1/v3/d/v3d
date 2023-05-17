@@ -1,0 +1,16 @@
+{
+  "category": "math",
+  "contact": "fernandoraya in Google's mail",
+  "description": "Small 3d vector library",
+  "keywords": ["vectors", "3d"],
+  "name": "v3d",
+  "releases": [{
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["sphinx-extensions@0.2.0",
+                                      "testworks@2.1.0"],
+                 "license": "BSD 2",
+                 "url": "https://github.com/fraya/v3d",
+                 "version": "0.1.0"
+               }]
+}
