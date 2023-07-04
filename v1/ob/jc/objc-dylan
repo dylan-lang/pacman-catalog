@@ -1,0 +1,15 @@
+{
+  "category": "",
+  "contact": "",
+  "description": "An Objective C / Dylan bridge",
+  "keywords": ["Mac OS X", "Objective C"],
+  "name": "objc-dylan",
+  "releases": [{
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["testworks"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-foundry/objc-dylan",
+                 "version": "0.1.0"
+               }]
+}
