@@ -3,7 +3,7 @@
   "contact": "",
   "description": "A collection of data analysis libraries",
   "keywords": ["data"],
-  "name": "statistics",
+  "name": "data-analysis",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
