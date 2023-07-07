@@ -1,0 +1,15 @@
+{
+  "category": "",
+  "contact": "",
+  "description": "A collection of data analysis libraries",
+  "keywords": ["data"],
+  "name": "statistics",
+  "releases": [{
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["testworks"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-foundry/data-analysis",
+                 "version": "0.1.0"
+               }]
+}
