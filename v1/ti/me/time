@@ -1,0 +1,15 @@
+{
+  "category": "",
+  "contact": "",
+  "description": "A time library",
+  "keywords": [],
+  "name": "time",
+  "releases": [{
+                 "dependencies": ["strings@1.2.0"],
+                 "deps": ["strings@1.2.0"],
+                 "dev-dependencies": ["testworks", "sphinx-extensions"],
+                 "license": "Unknown",
+                 "url": "https://github.com/cgay/time",
+                 "version": "0.1.0"
+               }]
+}
