@@ -1,12 +1,21 @@
 {
-  "category": "network",
-  "contact": "dylan-lang@googlegroups.com",
-  "description": "URI library",
+  "category": "",
+  "contact": "",
+  "description": "A class to represent, parse, and compose URIs",
   "keywords": [],
   "name": "uri",
   "releases": [{
+                 "dependencies": ["strings@1.2.0"],
+                 "deps": ["strings@1.2.0"],
+                 "dev-dependencies": ["testworks"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/uri",
+                 "version": "1.0.1"
+               },
+               {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/uri",
                  "version": "1.0.0"
