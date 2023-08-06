@@ -7,6 +7,14 @@
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/strings",
+                 "version": "2.0.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
                  "dev-dependencies": ["testworks"],
                  "license": "Unknown",
                  "url": "https://github.com/dylan-lang/strings",
