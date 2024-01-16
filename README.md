@@ -7,7 +7,7 @@ packages and their dependencies.
 
 If you would like to add a new library to the catalog, or publish a new release
 of an existing package, see the [dylan
-publish](https://opendylan.org/documentation/dylan-tool/#dylan-publish)
+publish](https://opendylan.org/package/dylan-tool/index.html#dylan-publish)
 command.
 
 **Note:** this package management system is new for Dylan, and many packages are still
