@@ -1,12 +1,21 @@
 {
   "category": "parsers",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "parse and write JSON data format",
+  "description": "Convert to/from JSON format",
   "keywords": ["workspace", "package"],
   "name": "json",
   "releases": [{
+                 "dependencies": ["strings@1.2.0"],
+                 "deps": ["strings@1.2.0"],
+                 "dev-dependencies": ["testworks"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/json",
+                 "version": "1.1.0"
+               },
+               {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/json",
                  "version": "1.0.0"
