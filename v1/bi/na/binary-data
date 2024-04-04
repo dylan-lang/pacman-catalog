@@ -2,11 +2,20 @@
   "category": "parsers",
   "contact": "dylan-lang@googlegroups.com",
   "description": "A DSL for parsing and assembling binary data",
-  "keywords": [],
+  "keywords": ["binary", "parser"],
   "name": "binary-data",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks", "sphinx-extensions"],
+                 "license": "MIT",
+                 "url": "A DSL for parsing and assembling binary data",
+                 "version": "0.1.1"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/binary-data",
                  "version": "0.1.0"
