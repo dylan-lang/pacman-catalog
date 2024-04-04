@@ -2,11 +2,21 @@
   "category": "encoding",
   "contact": "dylan-lang@googlegroups.com",
   "description": "Base64 encoding",
-  "keywords": [],
+  "keywords": ["base64", "binary"],
   "name": "base64",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks"],
+                 "license": "Unlicensed",
+                 "license-url": "http://unlicense.org/",
+                 "url": "https://github.com/dylan-lang/base64",
+                 "version": "0.1.1"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "Public Domain",
                  "url": "https://github.com/dylan-lang/base64",
                  "version": "0.1.0"
