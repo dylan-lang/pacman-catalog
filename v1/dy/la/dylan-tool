@@ -11,6 +11,18 @@
                  "deps": ["command-line-parser@3.1.1", "json@1.0.0",
                           "logging@2.1.0", "regular-expressions@0.2.0",
                           "uncommon-dylan@0.2.0"],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/dylan-tool",
+                 "version": "0.11.1"
+               },
+               {
+                 "dependencies": ["command-line-parser@3.1.1", "json@1.0.0",
+                                  "logging@2.1.0", "regular-expressions@0.2.0",
+                                  "uncommon-dylan@0.2.0"],
+                 "deps": ["command-line-parser@3.1.1", "json@1.0.0",
+                          "logging@2.1.0", "regular-expressions@0.2.0",
+                          "uncommon-dylan@0.2.0"],
                  "dev-dependencies": ["sphinx-extensions", "testworks@2.0.0"],
                  "license": "Unknown",
                  "url": "https://github.com/dylan-lang/dylan-tool",
