@@ -19,14 +19,24 @@ jobs:
       - name: Checkout pacman-catalog
         uses: actions/checkout@v4
 
-      - name: Install dylan-tool
-        uses: dylan-lang/install-dylan-tool@v3
+      - name: Install Open Dylan
+        uses: dylan-lang/install-opendylan@v3
 
-      - name: Build pacman-catalog-test-suite
+      # Use dylan-tool from the Open Dylan install to update the local
+      # workspace.  Use the local checkout as the catalog so that updates to
+      # dylan-tool itself will be installed if we're testing a new version of
+      # dylan-tool.
+      - name: Update Dylan workspace
         run: |
           DYLAN_CATALOG=. dylan update
-          dylan build -a
 
+      # Build the test suite using the dylan-tool sources specified in
+      # dev-dependencies so we get the latest.
+      - name: Build pacman-catalog-test-suite
+        run: |
+          dylan build pacman-catalog-test-suite
+
+      # Run the test suite against the checked out catalog.
       - name: Run pacman-catalog-test-suite
         run: |
           DYLAN_CATALOG=. _build/bin/pacman-catalog-test-suite --report surefire --report-file _build/pacman-catalog-tests.xml
