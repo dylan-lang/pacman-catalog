@@ -1,0 +1,19 @@
+{
+  "category": "language-tools",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Manage Dylan workspaces, packages, and registries",
+  "keywords": ["workspace", "package"],
+  "name": "deft",
+  "releases": [{
+                 "dependencies": ["command-line-parser@3.1.1", "json@1.0.0",
+                                  "logging@2.1.0", "regular-expressions@0.2.0",
+                                  "uncommon-dylan@0.2.0"],
+                 "deps": ["command-line-parser@3.1.1", "json@1.0.0",
+                          "logging@2.1.0", "regular-expressions@0.2.0",
+                          "uncommon-dylan@0.2.0"],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/deft",
+                 "version": "0.12.0"
+               }]
+}
