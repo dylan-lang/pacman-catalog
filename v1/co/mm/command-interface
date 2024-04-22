@@ -1,12 +1,23 @@
 {
   "category": "utilities",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "Interactive command interface system",
-  "keywords": [],
+  "description": "Interactive command interface system for Dylan",
+  "keywords": ["command-line"],
   "name": "command-interface",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks@3.2.0",
+                                      "sphinx-extensions@0.2.0"],
+                 "license": "MIT",
+                 "license-url": "https://opensource.org/license/mit",
+                 "url": "https://github.com/dylan-lang/command-interface",
+                 "version": "0.1.1"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/command-interface",
                  "version": "0.1.0"
