@@ -1,0 +1,16 @@
+{
+  "category": "development tools",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Generate docs for all Dylan catalog libraries",
+  "keywords": [],
+  "license": "MIT",
+  "name": "gendoc",
+  "releases": [{
+                 "dependencies": ["command-line-parser", "deft"],
+                 "deps": ["command-line-parser", "deft"],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/gendoc",
+                 "version": "0.1.0"
+               }]
+}
