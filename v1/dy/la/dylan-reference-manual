@@ -1,0 +1,15 @@
+{
+  "category": "documentation",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "The Dylan Reference Manual (DRM)",
+  "keywords": ["documentation"],
+  "name": "dylan-reference-manual",
+  "releases": [{
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/dylan-reference-manual",
+                 "version": "0.1.0"
+               }]
+}
