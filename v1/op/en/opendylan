@@ -1,12 +1,30 @@
 {
   "category": "compilers",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "Dylan compiler, IDE, and related libraries",
+  "description": "The Open Dylan compiler, IDE, and core libraries",
   "keywords": [],
   "name": "opendylan",
   "releases": [{
+                 "dependencies": ["collection-extensions@0.1.0",
+                                  "command-line-parser@3.2.0", "deft@0.12.0",
+                                  "json@1.1.0", "meta@0.1.0",
+                                  "regular-expressions@0.2.0", "strings@1.2.0",
+                                  "xml-parser@0.2.0"],
+                 "deps": ["collection-extensions@0.1.0",
+                          "command-line-parser@3.2.0", "deft@0.12.0",
+                          "json@1.1.0", "meta@0.1.0",
+                          "regular-expressions@0.2.0", "strings@1.2.0",
+                          "xml-parser@0.2.0"],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "DUAL",
+                 "license-url": "https://github.com/dylan-lang/opendylan/blob/master/License.txt",
+                 "url": "https://github.com/dylan-lang/opendylan",
+                 "version": "2024.1.0"
+               },
+               {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "DUAL",
                  "url": "https://github.com/dylan-lang/opendylan",
                  "version": "2020.1.0"
@@ -14,6 +32,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "DUAL",
                  "url": "https://github.com/dylan-lang/opendylan",
                  "version": "2019.1.0"
@@ -21,6 +40,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "DUAL",
                  "url": "https://github.com/dylan-lang/opendylan",
                  "version": "2014.1.0"
