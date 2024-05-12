@@ -8,6 +8,15 @@
                  "dependencies": [],
                  "deps": [],
                  "dev-dependencies": ["sphinx-extensions@0.2.0",
+                                      "testworks@3.0.0"],
+                 "license": "BSD 2",
+                 "url": "https://github.com/fraya/v3d",
+                 "version": "0.2.1"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["sphinx-extensions@0.2.0",
                                       "testworks@2.1.0"],
                  "license": "BSD 2",
                  "url": "https://github.com/fraya/v3d",
