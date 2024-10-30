@@ -2,11 +2,22 @@
   "category": "utilities",
   "contact": "dylan-lang@googlegroups.com",
   "description": "Collection library",
-  "keywords": [],
+  "keywords": ["heap", "list", "search", "sequence", "subsequence", "vector",
+               "collections"],
   "name": "collection-extensions",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["sphinx-extensions@0.2.0",
+                                      "testworks@3.2.0"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/collection-extensions",
+                 "version": "0.2.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/collection-extensions",
                  "version": "0.1.0"
