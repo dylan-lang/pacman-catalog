@@ -11,6 +11,15 @@
                  "license": "Unlicensed",
                  "license-url": "http://unlicense.org/",
                  "url": "https://github.com/dylan-lang/base64",
+                 "version": "0.2.1"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "Unlicensed",
+                 "license-url": "http://unlicense.org/",
+                 "url": "https://github.com/dylan-lang/base64",
                  "version": "0.2.0"
                },
                {
