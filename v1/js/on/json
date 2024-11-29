@@ -1,10 +1,18 @@
 {
-  "category": "parsers",
+  "category": "",
   "contact": "dylan-lang@googlegroups.com",
   "description": "Convert to/from JSON format",
-  "keywords": ["workspace", "package"],
+  "keywords": ["data", "formats"],
   "name": "json",
   "releases": [{
+                 "dependencies": ["strings@1.2.0"],
+                 "deps": ["strings@1.2.0"],
+                 "dev-dependencies": ["testworks", "sphinx-extensions"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/json",
+                 "version": "1.1.2"
+               },
+               {
                  "dependencies": ["strings@1.2.0"],
                  "deps": ["strings@1.2.0"],
                  "dev-dependencies": ["testworks", "sphinx-extensions"],
