@@ -1,12 +1,22 @@
 {
   "category": "compression",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "Simple Dylan zlib wrapper",
-  "keywords": [],
+  "description": "Bindings to Zlib library",
+  "keywords": ["zlib", "binding"],
   "name": "zlib",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks", "sphinx-extensions"],
+                 "license": "MIT",
+                 "license-url": "https://opensource.org/license/mit",
+                 "url": "https://github.com/dylan-lang/zlib",
+                 "version": "0.1.1"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/zlib",
                  "version": "0.1.0"
