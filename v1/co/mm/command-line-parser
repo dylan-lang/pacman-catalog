@@ -11,6 +11,15 @@
                  "license": "Open Dylan license",
                  "license-url": "https://raw.github.com/dylan-lang/opendylan/master/License.txt",
                  "url": "https://github.com/dylan-lang/command-line-parser",
+                 "version": "3.2.2"
+               },
+               {
+                 "dependencies": ["strings@1.0.0"],
+                 "deps": ["strings@1.0.0"],
+                 "dev-dependencies": ["sphinx-extensions", "testworks@2.0.0"],
+                 "license": "Open Dylan license",
+                 "license-url": "https://raw.github.com/dylan-lang/opendylan/master/License.txt",
+                 "url": "https://github.com/dylan-lang/command-line-parser",
                  "version": "3.2.1"
                },
                {
