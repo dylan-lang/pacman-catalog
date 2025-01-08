@@ -2,11 +2,21 @@
   "category": "development tools",
   "contact": "dylan-lang@googlegroups.com",
   "description": "Recursive descent parser DSL",
-  "keywords": [],
+  "keywords": ["parser"],
   "name": "meta",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "Unknown",
+                 "license-url": "https://github.com/dylan-lang/meta/blob/master/LICENSE",
+                 "url": "https://github.com/dylan-lang/meta",
+                 "version": "0.2.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "unknown",
                  "url": "https://github.com/dylan-lang/meta",
                  "version": "0.1.0"
