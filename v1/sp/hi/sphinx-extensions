@@ -1,10 +1,18 @@
 {
   "category": "documentation",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "Dylan extensions to the Sphinx documentation tools",
+  "description": "Adds Dylan support to the Sphinx documentation tool",
   "keywords": ["documentation", "docs", "sphinx", "rst"],
   "name": "sphinx-extensions",
   "releases": [{
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/sphinx-extensions",
+                 "version": "1.1.0"
+               },
+               {
                  "dependencies": [],
                  "deps": [],
                  "dev-dependencies": [],
