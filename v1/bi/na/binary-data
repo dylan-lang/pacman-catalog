@@ -10,6 +10,14 @@
                  "dev-dependencies": ["testworks", "sphinx-extensions"],
                  "license": "MIT",
                  "url": "https://github.com/dylan-lang/binary-data",
+                 "version": "0.1.2"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["testworks", "sphinx-extensions"],
+                 "license": "MIT",
+                 "url": "https://github.com/dylan-lang/binary-data",
                  "version": "0.1.1"
                },
                {
