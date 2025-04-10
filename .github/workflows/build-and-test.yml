@@ -20,7 +20,7 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Install Open Dylan
-        uses: dylan-lang/install-opendylan@v3
+        uses: dylan-lang/install-opendylan@v3.0.1
 
       # Use dylan-tool from the Open Dylan install to update the local
       # workspace.  Use the local checkout as the catalog so that updates to
