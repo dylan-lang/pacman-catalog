@@ -9,7 +9,7 @@
     "category": "development tools",
     "contact": "dylan-lang@googlegroups.com",
     "dev-dependencies": [
-        "dylan-tool",
-        "testworks@3.2"
+        "deft",
+        "testworks"
     ]
 }
