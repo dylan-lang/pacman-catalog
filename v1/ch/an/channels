@@ -1,0 +1,15 @@
+{
+  "category": "utilities",
+  "contact": "dylan-lang@googlegroups.com",
+  "description": "Broadcast messages to channels",
+  "keywords": ["channel", "broadcast"],
+  "name": "channels",
+  "releases": [{
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "Open Dylan license",
+                 "url": "https://github.com/dylan-lang/channels",
+                 "version": "0.1.0"
+               }]
+}
