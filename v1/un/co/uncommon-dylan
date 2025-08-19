@@ -1,12 +1,22 @@
 {
   "category": "utilities",
   "contact": "dylan-lang@googlegroups.com",
-  "description": "uncommon-utils library provides utilities of extremely general nature that could potentially be candidates for moving to the common-dylan library at some point. Also provides the uncommon-dylan package, which shortens some of the names in the Dylan package, for example <integer> -> <int>.",
+  "description": "General purpose utilities and a drop-in replacement for the common-dylan module which uses shorter names.",
   "keywords": [],
   "name": "uncommon-dylan",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "MIT",
+                 "license-url": "https://opensource.org/license/mit",
+                 "url": "https://github.com/cgay/uncommon-dylan",
+                 "version": "1.0.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/cgay/uncommon-dylan",
                  "version": "0.2.0"
@@ -14,6 +24,7 @@
                {
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": [],
                  "license": "MIT",
                  "url": "https://github.com/cgay/uncommon-dylan",
                  "version": "0.1.0"
