@@ -10,6 +10,14 @@
                  "dev-dependencies": ["sphinx-extensions"],
                  "license": "Unknown",
                  "url": "https://github.com/dylan-lang/testworks",
+                 "version": "3.4.0"
+               },
+               {
+                 "dependencies": ["command-line-parser@3.1.1", "json@1.0.0"],
+                 "deps": ["command-line-parser@3.1.1", "json@1.0.0"],
+                 "dev-dependencies": ["sphinx-extensions"],
+                 "license": "Unknown",
+                 "url": "https://github.com/dylan-lang/testworks",
                  "version": "3.3.0"
                },
                {
