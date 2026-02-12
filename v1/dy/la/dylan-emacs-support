@@ -1,12 +1,21 @@
 {
   "category": "editor support",
-  "contact": "dylan-lang@googlegroups.com",
-  "description": "Emacs mode for indenting and highlighting Dylan code",
-  "keywords": [],
+  "contact": "https://github.com/dylan-lang/dylan-emacs-support/issues",
+  "description": "Support writing Dylan code in Emacs",
+  "keywords": ["dime", "dylan-mode", "emacs", "IDE"],
   "name": "dylan-emacs-support",
   "releases": [{
                  "dependencies": [],
                  "deps": [],
+                 "dev-dependencies": ["testworks"],
+                 "license": "GPLv2",
+                 "url": "https://github.com/dylan-lang/dylan-emacs-support",
+                 "version": "0.2.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": [],
                  "license": "GPL",
                  "url": "https://github.com/dylan-lang/dylan-emacs-support",
                  "version": "0.1.0"
