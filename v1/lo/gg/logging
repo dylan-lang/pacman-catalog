@@ -11,6 +11,15 @@
                  "license": "MIT",
                  "license-url": "https://github.com/dylan-lang/logging/blob/master/License.txt",
                  "url": "https://github.com/dylan-lang/logging",
+                 "version": "2.2.2"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "MIT",
+                 "license-url": "https://github.com/dylan-lang/logging/blob/master/License.txt",
+                 "url": "https://github.com/dylan-lang/logging",
                  "version": "2.2.1"
                },
                {
