@@ -1,0 +1,15 @@
+{
+  "category": "development tools",
+  "contact": "https://github.com/dylan-foundry/gir-dylan/issues",
+  "description": "gobject-introspection bindings and Dylan generator tool",
+  "keywords": [],
+  "name": "gir-dylan",
+  "releases": [{
+                 "dependencies": ["command-line-parser@3.2.2"],
+                 "deps": ["command-line-parser@3.2.2"],
+                 "dev-dependencies": ["sphinx-extensions", "testworks@2.0.0"],
+                 "license": "MIT",
+                 "url": "https://github.com/housel/gir-dylan",
+                 "version": "0.1.0"
+               }]
+}
