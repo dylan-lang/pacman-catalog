@@ -11,40 +11,36 @@ on:
   # This enables the Run Workflow button on the Actions tab.
   workflow_dispatch:
 
+permissions:
+  # Allows junit report to be written. See action-junit-report's README.
+  checks: write
+
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
     steps:
 
       - name: Checkout pacman-catalog
-        uses: actions/checkout@v4
+        uses: actions/checkout@v7
 
       - name: Install Open Dylan
-        uses: dylan-lang/install-opendylan@v3.0.1
+        uses: dylan-lang/install-opendylan@v3
 
-      # Use dylan-tool from the Open Dylan install to update the local
-      # workspace.  Use the local checkout as the catalog so that updates to
-      # dylan-tool itself will be installed if we're testing a new version of
-      # dylan-tool.
-      - name: Update Dylan workspace
-        run: |
-          DYLAN_CATALOG=. dylan update
+      # Update the local workspace using the local checkout as the catalog so that
+      # updates to Deft itself will be installed if we're testing a new version of Deft.
+      - name: Update workspace
+        run: DYLAN_CATALOG=. deft update
 
       # Build the test suite using the dylan-tool sources specified in
       # dev-dependencies so we get the latest.
-      - name: Build pacman-catalog-test-suite
-        run: |
-          dylan build pacman-catalog-test-suite
-
-      # Run the test suite against the checked out catalog.
-      - name: Run pacman-catalog-test-suite
-        run: |
-          DYLAN_CATALOG=. _build/bin/pacman-catalog-test-suite --report surefire --report-file _build/pacman-catalog-tests.xml
+      - name: Run tests
+        run: DYLAN_CATALOG=. deft test -- --report surefire --report-file _build/test-output.xml
 
       - name: Publish Test Report
         if: success() || failure()
-        uses: mikepenz/action-junit-report@v4
+        uses: mikepenz/action-junit-report@v6
         with:
-          report_paths: '**/_build/*-tests.xml'
+          annotate_only: true
+          report_paths: '**/_build/test-output.xml'
           detailed_summary: true
           include_passed: true
