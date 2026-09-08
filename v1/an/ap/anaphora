@@ -11,6 +11,15 @@
                  "license": "LGPL",
                  "license-url": "https://www.gnu.org/licenses/lgpl-3.0.html",
                  "url": "https://github.com/dylan-lang/anaphora",
+                 "version": "0.3.0"
+               },
+               {
+                 "dependencies": [],
+                 "deps": [],
+                 "dev-dependencies": ["sphinx-extensions", "testworks"],
+                 "license": "LGPL",
+                 "license-url": "https://www.gnu.org/licenses/lgpl-3.0.html",
+                 "url": "https://github.com/dylan-lang/anaphora",
                  "version": "0.2.0"
                },
                {
